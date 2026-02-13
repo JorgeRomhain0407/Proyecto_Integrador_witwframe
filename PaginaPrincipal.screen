@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="24" y="80" width="617" height="465" text="Browser&#xA;" measuredWidth="617" measuredHeight="465">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="4" x="64" y="168" width="537" height="329" text="GOOD TO SEE YOU AGAIN&#xD;&#xA;" measuredWidth="537" measuredHeight="329" selection="0">
+    <items x="0" y="2" width="537" height="26" text="GOOD TO SEE YOU AGAIN"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="100" y="216" width="201" text="Your email" measuredWidth="201" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" x="100" y="248" width="465" height="73" measuredWidth="465" measuredHeight="73"/>
+  <widgets xsi:type="model:Icon" id="7" x="100" y="253" width="69" height="68" measuredWidth="69" measuredHeight="68" icon="user (custom)"/>
+  <widgets xsi:type="model:Panel" id="8" x="100" y="368" width="465" height="73" measuredWidth="465" measuredHeight="73"/>
+  <widgets xsi:type="model:Icon" id="9" x="100" y="368" width="69" height="73" measuredWidth="69" measuredHeight="73" icon="secure (custom)"/>
+  <widgets xsi:type="model:TextField" id="10" x="100" y="336" width="201" text="Your Password" measuredWidth="201" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="11" x="283" y="456" text="Forgot password?" measuredWidth="99" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="192" y="274" width="329" text="e.g Xujie12345@gmail.com" measuredWidth="329" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="192" y="392" width="329" text="e.g Contraseña12345" measuredWidth="329" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
