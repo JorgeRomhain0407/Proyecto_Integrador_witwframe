@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="88" y="88" width="753" height="473" text="Perfil" measuredWidth="753" measuredHeight="473" background="#eee"/>
+  <widgets xsi:type="model:Menu" id="4" x="88" y="107" width="753" text="&amp;Pantalla Principal,&amp;Eventos,&amp;Ayuda" measuredWidth="753" measuredHeight="28">
+    <items x="5" y="0" width="102" height="28" text="&amp;Pantalla Principal"/>
+    <items x="107" y="0" width="52" height="28" text="&amp;Eventos"/>
+    <items x="159" y="0" width="45" height="28" text="&amp;Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="648" y="134" width="193" height="427" measuredWidth="193" measuredHeight="427" background="#c00" alpha="232"/>
+  <widgets xsi:type="model:TextField" id="6" x="648" y="134" width="193" text="Logros" measuredWidth="193" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ProgressBar" id="7" x="660" y="187" width="169" height="17" measuredWidth="169" measuredHeight="17" background="#900"/>
+  <widgets xsi:type="model:Label" id="9" x="660" y="160" width="111" text="Vida Saludable" measuredWidth="111" measuredHeight="28" foreground="#fff">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:ProgressBar" id="10" x="660" y="232" width="169" height="17" measuredWidth="169" measuredHeight="17" background="#900"/>
+  <widgets xsi:type="model:Label" id="11" x="660" y="203" width="111" text="Goleador" measuredWidth="111" measuredHeight="28" foreground="#fff">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="12" x="632" y="134" height="427" measuredWidth="17" measuredHeight="427"/>
+  <widgets xsi:type="model:Shape" id="14" x="106" y="146" width="61" height="72" measuredWidth="61" measuredHeight="72" foreground="#600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="13" x="112" y="160" width="49" height="44" measuredWidth="49" measuredHeight="44" foreground="#900" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="16" x="176" y="146" width="145" text="(Nombre del equipo)" measuredWidth="145" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
   <hRuler/>
-  <vRuler/>
+  <vRuler>
+    <guides position="290"/>
+  </vRuler>
   <font size="12px"/>
 </model:Screen>
