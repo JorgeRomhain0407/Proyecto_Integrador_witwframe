@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="10" y="10" width="792" height="424" text="Window" measuredWidth="792" measuredHeight="424" background="#ccc"/>
+  <widgets xsi:type="model:Window" id="1" x="10" y="10" width="792" height="424" text="UEM Events" measuredWidth="792" measuredHeight="424" background="#ccc"/>
   <widgets xsi:type="model:Window" id="2" x="63" y="58" width="644" height="328" text="GOOD TO SEE YOU AGAIN" measuredWidth="644" measuredHeight="328" background="#eee"/>
   <widgets xsi:type="model:Panel" id="3" x="160" y="105" width="479" height="253" measuredWidth="479" measuredHeight="253" background="#ccc"/>
   <widgets xsi:type="model:TextField" id="4" x="241" y="114" width="329" text="Introduzca la nueva contraseña" measuredWidth="329" measuredHeight="25">
