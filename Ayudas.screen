@@ -8,85 +8,82 @@
     <items x="514" y="0" width="292" height="46" text="Eventos"/>
     <items x="806" y="0" width="234" height="46" text="Perfil"/>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="3" x="176" y="96" width="752" text="Buscar en Preguntas Frecuentes" measuredWidth="752" measuredHeight="24">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="4" x="48" y="152" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#f00">
+  <widgets xsi:type="model:Label" id="4" x="48" y="104" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#f00">
     <font size="24px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="5" x="96" y="224" width="248" text="- Como Registrar  a un equipo" measuredWidth="248" measuredHeight="32" link="Registro.screen">
+  <widgets xsi:type="model:Label" id="5" x="112" y="176" width="248" text="- Como Registrar  a un equipo" measuredWidth="248" measuredHeight="32" link="Registro.screen">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="6" x="96" y="248" width="224" text="- Sistema de puntuacion" measuredWidth="224" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="6" x="112" y="200" width="224" text="- Sistema de puntuacion" measuredWidth="224" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="7" x="96" y="272" width="224" text="- Recuperar Contraseña" measuredWidth="224" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="7" x="112" y="224" width="224" text="- Recuperar Contraseña" measuredWidth="224" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="8" x="88" y="312" width="488" text="Documentación Oficial (PDF)" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="8" x="104" y="264" width="488" text="Documentación Oficial (PDF)" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="96" y="345" width="224" text="- Instrucciones de uso" measuredWidth="224" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="9" x="112" y="297" width="224" text="- Instrucciones de uso" measuredWidth="224" measuredHeight="32">
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="10" x="96" y="368" width="224" measuredWidth="224" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="11" x="88" y="399" width="488" text="Preguntas Frecuentes (FAQ)" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="11" x="104" y="351" width="488" text="Preguntas Frecuentes (FAQ)" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="12" x="88" y="431" width="323" text="- ¿Cuando acaba el plazo de inscripcion?" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="12" x="104" y="383" width="323" text="- ¿Cuando acaba el plazo de inscripcion?" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="13" x="88" y="453" width="323" text="- ¿Que es el &quot;Sello de vida saludables&quot;?" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="13" x="104" y="405" width="323" text="- ¿Que es el &quot;Sello de vida saludables&quot;?" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="88" y="512" width="488" text="Contactos y Soporte" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="16" x="104" y="464" width="488" text="Contactos y Soporte" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="88" y="544" width="323" text="- Contactar Administrador" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="17" x="104" y="496" width="323" text="- Contactar Administrador" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="18" x="88" y="568" width="323" text="- Reportar un Bug" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="18" x="104" y="520" width="323" text="- Reportar un Bug" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="19" x="88" y="200" width="488" text="Uso de la Aplicacion" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="19" x="104" y="152" width="488" text="Uso de la Aplicacion" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="21" x="16" y="667" width="1040" height="38" text="Estado: Documentación actualizada a Feb 2026 | Versión App: 1.0.2" measuredWidth="1040" measuredHeight="38" textAlignment="Center" background="#f00">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="535" y="152" width="512" text="Guia Rapida" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#f00">
+  <widgets xsi:type="model:Label" id="22" x="535" y="103" width="512" text="Guia Rapida" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#f00">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="23" x="591" y="199" width="488" text="Sello de Vida Saludable" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="23" x="575" y="151" width="488" text="Sello de Vida Saludable" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="24" x="591" y="223" width="488" text="1º Introduccion" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="24" x="575" y="175" width="488" text="1º Introduccion" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="591" y="421" width="488" text="2º Reglamento Deportivo" measuredWidth="488" measuredHeight="33" foreground="#f00">
+  <widgets xsi:type="model:Label" id="25" x="575" y="373" width="488" text="2º Reglamento Deportivo" measuredWidth="488" measuredHeight="33" foreground="#f00">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="26" x="568" y="453" width="323" text="2.1 Futbol Sala:" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="26" x="552" y="405" width="323" text="2.1 Futbol Sala:" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="584" y="484" width="323" text="- Tiempo: 2 partes de 15 minutos" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="27" x="568" y="436" width="323" text="- Tiempo: 2 partes de 15 minutos" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="28" x="584" y="504" width="323" text="- Sanciones: Tarjetas amarilla y roja" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="28" x="568" y="456" width="323" text="- Sanciones: Tarjetas amarilla y roja" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="568" y="535" width="323" text="2.2 Padel:" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="29" x="552" y="487" width="323" text="2.2 Padel:" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="30" x="584" y="568" width="323" text="- Punto de oro" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="30" x="568" y="520" width="323" text="- Punto de oro" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="584" y="584" width="323" text="- Tie-Break a 7 puntos" measuredWidth="323" measuredHeight="32">
+  <widgets xsi:type="model:Label" id="31" x="568" y="536" width="323" text="- Tie-Break a 7 puntos" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="32" x="568" y="255" width="472" height="168" text=" La aplicación aborda la complejidad de organizar torneos de Fútbol Sala y Pádel mediante la implementación de algoritmos de emparejamiento eficientes, como Round Robin y sistemas de eliminación directa, garantizando una planificación equitativa de los encuentros. Más allá de la administración deportiva, el sistema integra una capa de gamificación avanzada basada en el concepto de 'Expediente del Jugador' (Player Dossier), diseñada para transformar la participación del alumnado en una experiencia motivadora mediante logros y estadísticas visuales." measuredWidth="472" measuredHeight="168" borderColor="#fff">
+  <widgets xsi:type="model:TextArea" id="32" x="552" y="207" width="472" height="168" text=" La aplicación aborda la complejidad de organizar torneos de Fútbol Sala y Pádel mediante la implementación de algoritmos de emparejamiento eficientes, como Round Robin y sistemas de eliminación directa, garantizando una planificación equitativa de los encuentros. Más allá de la administración deportiva, el sistema integra una capa de gamificación avanzada basada en el concepto de 'Expediente del Jugador' (Player Dossier), diseñada para transformar la participación del alumnado en una experiencia motivadora mediante logros y estadísticas visuales." measuredWidth="472" measuredHeight="168" borderColor="#fff">
     <font size="13px"/>
   </widgets>
   <hRuler/>
