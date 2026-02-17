@@ -228,6 +228,12 @@
   <widgets xsi:type="model:Button" id="131" x="640" y="474" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
+  <widgets xsi:type="model:ButtonBar" id="132" x="9" y="61" width="948" height="23" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="948" measuredHeight="23" selection="0" background="#900">
+    <font/>
+    <items x="0" y="0" width="364" height="23" text="&amp;Mi Perfil"/>
+    <items link="PaginaPrincipal.screen" x="364" y="0" width="272" height="23" text="&amp;Inicio"/>
+    <items link="Ayudas.screen" x="636" y="0" width="312" height="23" text="&amp;Ayuda"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
