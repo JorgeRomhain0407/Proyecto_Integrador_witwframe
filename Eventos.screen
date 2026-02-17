@@ -48,33 +48,33 @@
   <widgets xsi:type="model:Label" id="49" x="932" y="334" width="272" text="Torneo de Padel " measuredWidth="272" measuredHeight="40" foreground="#eee">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="50" x="485" y="472" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#900" alpha="192" borderColor="#600">
+  <widgets xsi:type="model:TextField" id="50" x="472" y="664" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#900" alpha="192" borderColor="#600">
     <font size="32px"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="53" x="265" y="115" width="1016" height="38" text="Eventos, Inicio, Perfil, Ayuda" measuredWidth="1016" measuredHeight="38" selection="0" background="#900">
     <font/>
     <items link="Eventos(VistaGeneral).screen" x="0" y="0" width="292" height="38" text="Eventos"/>
-    <items link="PaginaPrincipal.screen" x="292" y="0" width="234" height="38" text="Inicio"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="292" y="0" width="234" height="38" text="Inicio"/>
     <items link="Perfil.screen" x="526" y="0" width="220" height="38" text="Perfil"/>
     <items link="Ayudas.screen" x="746" y="0" width="270" height="38" text="Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="54" x="285" y="568" width="557" height="168" measuredWidth="557" measuredHeight="168"/>
-  <widgets xsi:type="model:Label" id="55" x="309" y="584" text="Nombre De Equipo" measuredWidth="179" measuredHeight="36">
+  <widgets xsi:type="model:Panel" id="54" x="285" y="461" width="557" height="168" measuredWidth="557" measuredHeight="168"/>
+  <widgets xsi:type="model:Label" id="55" x="316" y="477" text="Nombre De Equipo" measuredWidth="179" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="56" x="496" y="585" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
+  <widgets xsi:type="model:TextField" id="56" x="503" y="478" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
     <font size="19px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="57" x="414" y="634" text="Capitán" measuredWidth="73" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="57" x="421" y="527" text="Capitán" measuredWidth="73" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="58" x="496" y="635" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
+  <widgets xsi:type="model:TextField" id="58" x="503" y="528" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
     <font size="19px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="59" x="362" y="691" text="Nº Jugadores" measuredWidth="127" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="59" x="369" y="584" text="Nº Jugadores" measuredWidth="127" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="60" x="496" y="692" width="48" measuredWidth="48" measuredHeight="33">
+  <widgets xsi:type="model:Combo" id="60" x="503" y="585" width="48" measuredWidth="48" measuredHeight="33">
     <font size="19px"/>
   </widgets>
   <hRuler/>

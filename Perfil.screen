@@ -21,11 +21,12 @@
   <widgets xsi:type="model:Label" id="20" x="159" y="330" width="323" text="(Nombre de Capitan)" measuredWidth="323" measuredHeight="30" textAlignment="Center" foreground="#fff">
     <font size="16px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inicio,&amp;Eventos,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="534" height="32" text="&amp;Mi Perfil"/>
-    <items link="PaginaPrincipal(Logeado).screen" x="534" y="0" width="416" height="32" text="&amp;Inicio"/>
-    <items link="Ayudas.screen" x="950" y="0" width="477" height="32" text="&amp;Ayuda"/>
+    <items x="0" y="0" width="392" height="32" text="&amp;Mi Perfil"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="392" y="0" width="305" height="32" text="&amp;Inicio"/>
+    <items link="Eventos(VistaGeneral).screen" x="697" y="0" width="379" height="32" text="&amp;Eventos"/>
+    <items link="Ayudas.screen" x="1076" y="0" width="351" height="32" text="&amp;Ayuda"/>
   </widgets>
   <widgets xsi:type="model:Label" id="27" x="90" y="141" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>

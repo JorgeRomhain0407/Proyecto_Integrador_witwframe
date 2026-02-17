@@ -18,15 +18,19 @@
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="11" x="58" y="49" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="114" height="28" text="Inicio"/>
-    <items link="Perfil.screen" x="114" y="0" width="106" height="28" text="Perfil"/>
-    <items link="Eventos(VistaGeneral).screen" x="220" y="0" width="143" height="28" text="Eventos"/>
+    <items x="0" y="0" width="115" height="28" text="Inicio"/>
+    <items link="Perfil.screen" x="115" y="0" width="107" height="28" text="Perfil"/>
+    <items link="Eventos(VistaGeneral).screen" x="222" y="0" width="141" height="28" text="Eventos"/>
     <items link="Ayudas.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="12" x="568" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="25">
+  <widgets xsi:type="model:TextField" id="12" x="568" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="24" textAlignment="Center">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="13" x="568" y="92" width="137" height="76" measuredWidth="137" measuredHeight="76" icon="usergroup (custom)"/>
+  <widgets xsi:type="model:Label" id="14" x="24" y="79" text="Logo" measuredWidth="24" measuredHeight="18">
+    <font size="8px"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="15" x="20" y="47" width="32" height="30" measuredWidth="32" measuredHeight="30"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
