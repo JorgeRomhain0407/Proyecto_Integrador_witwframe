@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="10" y="10" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
+  <widgets xsi:type="model:TextArea" id="3" x="58" y="95" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#900">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="4" x="73" y="195" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="5" x="73" y="430" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="6" x="294" y="195" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Image" id="7" x="506" y="195" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="8" x="298" y="430" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="506" y="427" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="10" x="58" y="49" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda, Administrador" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
+    <font/>
+    <items x="0" y="0" width="78" height="28" text="Inicio"/>
+    <items link="Login.screen" x="78" y="0" width="73" height="28" text="Perfil"/>
+    <items link="Login.screen" x="151" y="0" width="98" height="28" text="Eventos"/>
+    <items link="Login.screen" x="249" y="0" width="87" height="28" text="Ayuda"/>
+    <items link="Vista%20Administrador.screen" x="336" y="0" width="160" height="28" text="Administrador"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="24" y="77" text="Logo" measuredWidth="24" measuredHeight="18">
+    <font size="8px"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="12" x="20" y="48" width="32" height="30" measuredWidth="32" measuredHeight="30"/>
+  <widgets xsi:type="model:TextField" id="13" x="568" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="25" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="14" x="568" y="92" width="137" height="76" measuredWidth="137" measuredHeight="76" icon="usergroup (custom)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
