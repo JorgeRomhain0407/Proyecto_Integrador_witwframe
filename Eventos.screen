@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="264" y="96" width="1017" height="665" text="Eventos" measuredWidth="1017" measuredHeight="665" background="#ccc" minimizeButton="true"/>
-  <widgets xsi:type="model:Menu" id="2" x="264" y="115" width="1017" text="&amp;Pantalla principal,&amp;Eventos,&amp;Ayuda" measuredWidth="1017" measuredHeight="30">
-    <items x="5" y="0" width="100" height="30" text="&amp;Pantalla principal"/>
-    <items x="105" y="0" width="52" height="30" text="&amp;Eventos"/>
-    <items x="157" y="0" width="45" height="30" text="&amp;Ayuda"/>
-  </widgets>
+  <widgets xsi:type="model:Window" id="1" x="264" y="96" width="1017" height="665" text="Eventos" measuredWidth="1017" measuredHeight="665" background="#eee" minimizeButton="true"/>
   <widgets xsi:type="model:Label" id="7" x="328" y="144" width="472" text="Información del evento" measuredWidth="472" measuredHeight="65" textAlignment="Center">
     <font size="43px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="51" x="856" y="144" width="424" height="616" measuredWidth="424" measuredHeight="616" background="#900"/>
+  <widgets xsi:type="model:Panel" id="51" x="856" y="142" width="422" height="616" measuredWidth="422" measuredHeight="616" background="#900"/>
   <widgets xsi:type="model:Label" id="9" x="933" y="154" text="En directo {history}" measuredWidth="269" measuredHeight="65" foreground="#fff">
     <font size="43px" bold="true"/>
   </widgets>
@@ -66,6 +61,12 @@
   </widgets>
   <widgets xsi:type="model:TextField" id="50" x="485" y="520" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#900" alpha="192" borderColor="#600">
     <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="53" x="265" y="115" width="1016" height="29" text="Eventos, Página principal, Ayuda" measuredWidth="1016" measuredHeight="29" selection="0">
+    <font/>
+    <items link="Eventos(VistaGeneral).screen" x="0" y="0" width="282" height="29" text="Eventos"/>
+    <items link="PaginaPrincipal.screen" x="282" y="0" width="472" height="29" text="Página principal"/>
+    <items link="Ayudas.screen" x="754" y="0" width="262" height="29" text="Ayuda"/>
   </widgets>
   <hRuler/>
   <vRuler/>
