@@ -21,7 +21,7 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="10" x="224" y="224" width="36" height="20" measuredWidth="36" measuredHeight="20" foreground="#900" icon="help (custom)"/>
   <widgets xsi:type="model:VScrollbar" id="11" x="611" y="142" height="183" measuredWidth="17" measuredHeight="183"/>
-  <widgets xsi:type="model:Button" id="12" x="288" y="299" width="256" height="34" text="CONTINUAR" measuredWidth="256" measuredHeight="34" background="#900" link="NuevaContraseña.screen">
+  <widgets xsi:type="model:Button" id="12" x="288" y="291" width="256" height="34" text="CONTINUAR" measuredWidth="256" measuredHeight="34" background="#900" link="NuevaContraseña.screen">
     <font/>
   </widgets>
   <hRuler/>

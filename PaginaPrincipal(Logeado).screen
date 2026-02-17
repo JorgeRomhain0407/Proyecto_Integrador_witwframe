@@ -23,10 +23,10 @@
     <items link="Eventos(VistaGeneral).screen" x="220" y="0" width="143" height="28" text="Eventos"/>
     <items link="Ayudas.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="12" x="576" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="25">
+  <widgets xsi:type="model:TextField" id="12" x="568" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="13" x="576" y="92" width="137" height="76" measuredWidth="137" measuredHeight="76" icon="usergroup (custom)"/>
+  <widgets xsi:type="model:Icon" id="13" x="568" y="92" width="137" height="76" measuredWidth="137" measuredHeight="76" icon="usergroup (custom)"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

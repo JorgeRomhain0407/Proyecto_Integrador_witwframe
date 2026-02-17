@@ -15,7 +15,7 @@
   <widgets xsi:type="model:TextField" id="7" x="241" y="263" width="329" text="NuevaContraseña123" measuredWidth="329" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="8" x="264" y="305" width="242" height="24" text="CONTINUAR" measuredWidth="242" measuredHeight="24" background="#900" link="PaginaPrincipal.screen">
+  <widgets xsi:type="model:Button" id="8" x="285" y="312" width="242" height="24" text="CONTINUAR" measuredWidth="242" measuredHeight="24" background="#900" link="PaginaPrincipal.screen">
     <font/>
   </widgets>
   <hRuler/>

@@ -12,7 +12,7 @@
   <widgets xsi:type="model:TextField" id="8" x="196" y="216" width="201" text="Your Password" measuredWidth="201" measuredHeight="25" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="9" x="442" y="336" text="Forgot password?" measuredWidth="99" measuredHeight="24" link="Recuperacion.screen">
+  <widgets xsi:type="model:Link" id="9" x="448" y="336" text="Forgot password?" measuredWidth="99" measuredHeight="24" link="Recuperacion.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextField" id="10" x="288" y="154" width="329" text="e.g Xujie12345@gmail.com" measuredWidth="329" measuredHeight="25">
