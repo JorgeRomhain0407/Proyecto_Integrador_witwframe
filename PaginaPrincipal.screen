@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<<<<<<< HEAD
   <widgets xsi:type="model:Window" id="25" x="-248" y="32" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
   <widgets xsi:type="model:LinkBar" id="17" x="320" y="72" text="Register, Login" measuredWidth="98" measuredHeight="24">
+=======
+  <widgets xsi:type="model:Window" id="25" x="456" y="128" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
+  <widgets xsi:type="model:LinkBar" id="17" x="1024" y="168" text="Register, Login" measuredWidth="96" measuredHeight="25">
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
     <font/>
     <items link="Registro.screen" x="0" y="0" width="46" height="24" text="Register"/>
     <items link="Login.screen" x="64" y="0" width="33" height="24" text="Login"/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="20" x="-200" y="117" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#900">
+  <widgets xsi:type="model:TextArea" id="20" x="504" y="213" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#900">
     <font/>
   </widgets>
+<<<<<<< HEAD
   <widgets xsi:type="model:Image" id="84" x="-185" y="217" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
   <widgets xsi:type="model:Button" id="86" x="-185" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+=======
+  <widgets xsi:type="model:Image" id="84" x="519" y="313" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="86" x="519" y="548" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
     <font/>
   </widgets>
+<<<<<<< HEAD
   <widgets xsi:type="model:Image" id="92" x="36" y="217" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
   <widgets xsi:type="model:Image" id="94" x="248" y="217" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
   <widgets xsi:type="model:Button" id="95" x="40" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+=======
+  <widgets xsi:type="model:Image" id="92" x="740" y="313" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Image" id="94" x="952" y="313" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="95" x="744" y="548" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
     <font/>
   </widgets>
+<<<<<<< HEAD
   <widgets xsi:type="model:Button" id="96" x="248" y="449" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
+=======
+  <widgets xsi:type="model:Button" id="96" x="952" y="545" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
     <font/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="98" x="-200" y="71" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="98" x="504" y="167" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
     <font/>
     <items x="0" y="0" width="115" height="28" text="Inicio"/>
     <items link="Login.screen" x="115" y="0" width="107" height="28" text="Perfil"/>

@@ -6,26 +6,33 @@
   <widgets xsi:type="model:Window" id="1" x="76" y="81" width="1489" height="881" text="UEM Events" measuredWidth="1489" measuredHeight="881" background="#eee"/>
   <widgets xsi:type="model:Panel" id="5" x="104" y="159" width="475" height="761" measuredWidth="475" measuredHeight="761" background="#900" alpha="232"/>
   <widgets xsi:type="model:ProgressBar" id="7" x="157" y="700" width="360" height="17" measuredWidth="360" measuredHeight="17" value="70" background="#f90"/>
-  <widgets xsi:type="model:Label" id="9" x="220" y="880" width="104" text="Vida Saludable" measuredWidth="104" measuredHeight="30" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="9" x="220" y="880" width="104" text="Vida Saludable" measuredWidth="104" measuredHeight="29" textAlignment="Center" foreground="#fff">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="222" y="304" width="201" text="(Nombre del equipo)" measuredWidth="201" measuredHeight="33" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="16" x="222" y="304" width="201" text="(Nombre del equipo)" measuredWidth="201" measuredHeight="34" textAlignment="Center" foreground="#fff">
     <font size="19px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="117" y="880" width="93" text="Goleador" measuredWidth="93" measuredHeight="30" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="17" x="117" y="880" width="93" text="Goleador" measuredWidth="93" measuredHeight="29" textAlignment="Center" foreground="#fff">
     <font size="16px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="19" x="128" y="378" width="323" text="(Curso y Titulacion)" measuredWidth="323" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="20" x="159" y="330" width="323" text="(Nombre de Capitan)" measuredWidth="323" measuredHeight="30" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="20" x="159" y="330" width="323" text="(Nombre de Capitan)" measuredWidth="323" measuredHeight="29" textAlignment="Center" foreground="#fff">
     <font size="16px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="Mi Perfil,Inicio,Eventos,Ayuda" measuredWidth="1427" measuredHeight="32" selection="0" background="#900">
     <font/>
+<<<<<<< HEAD
     <items x="0" y="0" width="534" height="32" text="&amp;Mi Perfil"/>
     <items link="PaginaPrincipal(Logeado).screen" x="534" y="0" width="416" height="32" text="&amp;Inicio"/>
     <items link="Ayudas.screen" x="950" y="0" width="477" height="32" text="&amp;Ayuda"/>
+=======
+    <items x="0" y="0" width="389" height="32" text="Mi Perfil"/>
+    <items link="PaginaPrincipal.screen" x="389" y="0" width="302" height="32" text="Inicio"/>
+    <items link="Eventos(VistaGeneral).screen" x="691" y="0" width="382" height="32" text="Eventos"/>
+    <items link="Ayudas.screen" x="1073" y="0" width="354" height="32" text="Ayuda"/>
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
   </widgets>
   <widgets xsi:type="model:Label" id="27" x="90" y="141" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>
@@ -39,13 +46,13 @@
       <widgets xsi:type="model:Icon" id="13" width="94" height="81" measuredWidth="94" measuredHeight="81" foreground="#c00" icon="user (large)"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:TextField" id="35" x="160" y="790" width="360" text="Vitrina de Trofeos (Badges)" measuredWidth="360" measuredHeight="24" textAlignment="Center" background="#f90">
+  <widgets xsi:type="model:TextField" id="35" x="160" y="790" width="360" text="Vitrina de Trofeos (Badges)" measuredWidth="360" measuredHeight="25" textAlignment="Center" background="#f90">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="344" y="880" width="96" text="FairPlay" measuredWidth="96" measuredHeight="30" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="36" x="344" y="880" width="96" text="FairPlay" measuredWidth="96" measuredHeight="29" textAlignment="Center" foreground="#fff">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="37" x="464" y="880" width="96" text="Por conseguir" measuredWidth="96" measuredHeight="30" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="37" x="464" y="880" width="96" text="Por conseguir" measuredWidth="96" measuredHeight="29" textAlignment="Center" foreground="#fff">
     <font size="16px"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="40" x="109" y="809" width="109" height="98" measuredWidth="109" measuredHeight="98" foreground="#fff" icon="bullet (large)"/>

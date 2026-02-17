@@ -3,10 +3,17 @@
   <widgets xsi:type="model:Window" id="1" x="16" y="16" width="1041" height="689" text="UEM Events" measuredWidth="1041" measuredHeight="689"/>
   <widgets xsi:type="model:ButtonBar" id="2" x="16" y="35" width="1040" height="38" text="Ayudas,Inicio,Eventos,Perfil" measuredWidth="1040" measuredHeight="38" selection="0" background="#900">
     <font/>
+<<<<<<< HEAD
     <items x="0" y="0" width="279" height="38" text="Ayudas"/>
     <items link="PaginaPrincipal(Logeado).screen" x="279" y="0" width="235" height="38" text="Inicio"/>
     <items link="Eventos(VistaGeneral).screen" x="514" y="0" width="292" height="38" text="Eventos"/>
     <items link="Perfil.screen" x="806" y="0" width="234" height="38" text="Perfil"/>
+=======
+    <items x="0" y="0" width="285" height="38" text="Ayudas"/>
+    <items link="PaginaPrincipal.screen" x="285" y="0" width="232" height="38" text="Inicio"/>
+    <items link="Eventos(VistaGeneral).screen" x="517" y="0" width="293" height="38" text="Eventos"/>
+    <items link="Perfil.screen" x="810" y="0" width="230" height="38" text="Perfil"/>
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
   </widgets>
   <widgets xsi:type="model:Label" id="4" x="48" y="96" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
     <font size="24px" bold="true" underline="false"/>
@@ -20,7 +27,7 @@
   <widgets xsi:type="model:Label" id="7" x="112" y="224" width="224" text="- Recuperar Contraseña" measuredWidth="224" measuredHeight="32" link="Recuperacion.screen">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="8" x="104" y="264" width="488" text="Documentación Oficial (PDF)" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="8" x="104" y="264" width="488" text="Documentación Oficial (PDF)" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="9" x="112" y="297" width="224" text="- Instrucciones de uso" measuredWidth="224" measuredHeight="32">
@@ -29,7 +36,7 @@
   <widgets xsi:type="model:Label" id="10" x="96" y="368" width="224" measuredWidth="224" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="11" x="104" y="351" width="488" text="Preguntas Frecuentes (FAQ)" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="11" x="104" y="351" width="488" text="Preguntas Frecuentes (FAQ)" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="12" x="104" y="383" width="323" text="- ¿Cuando acaba el plazo de inscripcion?" measuredWidth="323" measuredHeight="32">
@@ -38,13 +45,20 @@
   <widgets xsi:type="model:Label" id="13" x="104" y="405" width="323" text="- ¿Que es el &quot;Sello de vida saludables&quot;?" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="96" y="567" width="488" text="Contactos y Soporte" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="16" x="96" y="567" width="488" text="Contactos y Soporte" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="17" x="96" y="599" width="323" text="- Contactar Administrador" measuredWidth="323" measuredHeight="32">
     <font size="17px"/>
   </widgets>
+<<<<<<< HEAD
   <widgets xsi:type="model:Label" id="19" x="104" y="152" width="488" text="Uso de la Aplicacion" measuredWidth="488" measuredHeight="33" foreground="#900">
+=======
+  <widgets xsi:type="model:Label" id="18" x="96" y="623" width="323" text="- Reportar un Bug" measuredWidth="323" measuredHeight="32">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="104" y="152" width="488" text="Uso de la Aplicacion" measuredWidth="488" measuredHeight="34" foreground="#900">
+>>>>>>> branch 'master' of https://github.com/JorgeRomhain0407/Proyecto_Integrador_witwframe.git
     <font size="19px" bold="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="21" x="16" y="667" width="1040" height="38" text="Estado: Documentación actualizada a Feb 2026 | Versión App: 1.0.2" measuredWidth="1040" measuredHeight="38" textAlignment="Center" background="#900">
@@ -53,13 +67,13 @@
   <widgets xsi:type="model:Label" id="22" x="531" y="95" width="512" text="Guia Rapida" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="23" x="575" y="151" width="488" text="Sello de Vida Saludable" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="23" x="575" y="151" width="488" text="Sello de Vida Saludable" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="24" x="575" y="175" width="488" text="1º Introduccion" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="24" x="575" y="175" width="488" text="1º Introduccion" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="575" y="373" width="488" text="2º Reglamento Deportivo" measuredWidth="488" measuredHeight="33" foreground="#900">
+  <widgets xsi:type="model:Label" id="25" x="575" y="373" width="488" text="2º Reglamento Deportivo" measuredWidth="488" measuredHeight="34" foreground="#900">
     <font size="19px" bold="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="26" x="552" y="405" width="323" text="2.1 Futbol Sala:" measuredWidth="323" measuredHeight="32">
