@@ -4,7 +4,7 @@
   <widgets xsi:type="model:ButtonBar" id="2" x="16" y="27" width="1065" height="38" text="Eventos,Inicio,Perfil,Ayudas" measuredWidth="1065" measuredHeight="38" selection="0" background="#900">
     <font/>
     <items x="0" y="0" width="300" height="38" text="Eventos"/>
-    <items link="PaginaPrincipal.screen" x="300" y="0" width="241" height="38" text="Inicio"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="300" y="0" width="241" height="38" text="Inicio"/>
     <items link="Perfil.screen" x="541" y="0" width="227" height="38" text="Perfil"/>
     <items link="Ayudas.screen" x="768" y="0" width="297" height="38" text="Ayudas"/>
   </widgets>
@@ -87,6 +87,8 @@
   <widgets xsi:type="model:Icon" id="40" x="412" y="570" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="bar-chart (custom)"/>
   <widgets xsi:type="model:Image" id="41" x="776" y="480" width="232" height="184" text="Work in progress" measuredWidth="232" measuredHeight="184"/>
   <hRuler/>
-  <vRuler/>
+  <vRuler>
+    <guides position="26"/>
+  </vRuler>
   <font size="12px"/>
 </model:Screen>

@@ -41,22 +41,22 @@
   <widgets xsi:type="model:TextField" id="17" x="216" y="380" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="18" x="216" y="418" width="177" text="Pregunta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="18" x="216" y="404" width="177" text="Pregunta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="19" x="216" y="444" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="19" x="216" y="430" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="20" x="216" y="482" width="177" text="Respuesta de Seguridad 1:" measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="20" x="216" y="457" width="177" text="Respuesta de Seguridad 1:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="21" x="216" y="508" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="21" x="216" y="483" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="216" y="544" width="177" text="Respuesta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="22" x="216" y="510" width="177" text="Respuesta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="23" x="216" y="570" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="23" x="216" y="536" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="24" x="520" y="141" width="177" text="Datos del Capitan" measuredWidth="177" measuredHeight="28" foreground="#fff">
@@ -131,6 +131,9 @@
   </widgets>
   <widgets xsi:type="model:TextField" id="51" x="240" y="49" width="456" text="Registro de Equipos" measuredWidth="456" measuredHeight="32" textAlignment="Center" background="#900">
     <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="52" x="269" y="590" width="120" height="29" text="Registrarse" measuredWidth="120" measuredHeight="29" link="Login.screen">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
