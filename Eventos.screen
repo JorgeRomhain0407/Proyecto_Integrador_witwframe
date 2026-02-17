@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="40" y="56" width="929" height="665" text="Eventos" measuredWidth="929" measuredHeight="665"/>
+  <widgets xsi:type="model:Window" id="1" x="264" y="96" width="1017" height="665" text="Eventos" measuredWidth="1017" measuredHeight="665" background="#eee" minimizeButton="true"/>
+  <widgets xsi:type="model:Menu" id="2" x="264" y="115" width="1017" text="&amp;Pantalla principal,&amp;Eventos,&amp;Ayuda" measuredWidth="1017" measuredHeight="30">
+    <items x="5" y="0" width="100" height="30" text="&amp;Pantalla principal"/>
+    <items x="105" y="0" width="52" height="30" text="&amp;Eventos"/>
+    <items x="157" y="0" width="45" height="30" text="&amp;Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="328" y="144" width="472" text="Información del evento" measuredWidth="472" measuredHeight="65" textAlignment="Center">
+    <font size="43px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="944" y="144" text="En directo {history}" measuredWidth="269" measuredHeight="65" foreground="#f00">
+    <font size="43px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="11" x="856" y="144" height="616" measuredWidth="6" measuredHeight="616"/>
+  <widgets xsi:type="model:Label" id="23" x="296" y="248" width="88" text="Fecha:" measuredWidth="88" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="383" y="254" width="272" text=" 12-14 Febrero 2026" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="296" y="305" text="Ubicación:" measuredWidth="143" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="448" y="311" width="272" text="Polideportivo X" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="296" y="367" text="Premio:" measuredWidth="108" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="416" y="373" width="272" text="A definir" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="285" y="448" width="557" text="TIEMPO RESTANTE DE REGISTRO - 2 DÍAS" measuredWidth="557" measuredHeight="46" background="#900" borderColor="#900">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="32" x="321" y="592" width="166" height="124" measuredWidth="166" measuredHeight="124" background="#000"/>
+  <widgets xsi:type="model:Panel" id="36" x="647" y="592" width="166" height="124" measuredWidth="166" measuredHeight="124" background="#741b47"/>
+  <widgets xsi:type="model:Label" id="40" x="521" y="621" width="96" text="VS" measuredWidth="96" measuredHeight="65" textAlignment="Center" foreground="#900">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="41" x="896" y="240" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="337" y="628" text="Equipo A" measuredWidth="133" measuredHeight="52" foreground="#999">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="664" y="628" text="Equipo B" measuredWidth="131" measuredHeight="52" foreground="#999">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="44" x="896" y="288" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="45" x="896" y="342" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="942" y="231" width="272" text="Jornada 2" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="942" y="280" width="272" text="Equipo Z vs Equipo E" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="936" y="334" width="272" text="Torneo de Padel " measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="485" y="520" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#900" alpha="192" borderColor="#600">
+    <font size="32px"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
