@@ -28,7 +28,7 @@
     <items link="Login.screen" x="222" y="0" width="141" height="28" text="Eventos"/>
     <items link="Login.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="99" x="-234" y="102" text="Logo" measuredWidth="24" measuredHeight="18">
+  <widgets xsi:type="model:Label" id="99" x="-234" y="99" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="100" x="-238" y="70" width="32" height="30" measuredWidth="32" measuredHeight="30"/>

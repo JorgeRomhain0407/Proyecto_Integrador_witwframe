@@ -28,7 +28,7 @@
     <items link="Eventos(VistaGeneral).screen" x="697" y="0" width="379" height="32" text="&amp;Eventos"/>
     <items link="Ayudas.screen" x="1076" y="0" width="351" height="32" text="&amp;Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="90" y="141" text="Logo" measuredWidth="24" measuredHeight="18">
+  <widgets xsi:type="model:Label" id="27" x="94" y="141" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="29" x="86" y="109" width="32" height="30" measuredWidth="32" measuredHeight="30"/>
