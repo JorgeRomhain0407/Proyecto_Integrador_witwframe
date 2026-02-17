@@ -26,7 +26,7 @@
     <items x="108" y="0" width="57" height="27" text="~&amp;Window~"/>
     <items x="165" y="0" width="38" height="27" text="&amp;Help"/>
   </widgets>
-  <widgets xsi:type="model:Group" id="23" x="224" y="89" width="377" height="233" text="Gestión Torneos" measuredWidth="377" measuredHeight="233">
+  <widgets xsi:type="model:Group" id="23" x="206" y="164" width="369" height="165" text="Gestión Torneos" measuredWidth="369" measuredHeight="165">
     <font/>
   </widgets>
   <widgets xsi:type="model:Group" id="25" x="20" y="370" width="185" height="133" text="Proximos Eventos" measuredWidth="185" measuredHeight="133">
@@ -41,7 +41,140 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:VScrollbar" id="31" x="956" y="61" height="452" measuredWidth="17" measuredHeight="452"/>
-  <widgets xsi:type="model:Label" id="32" x="258" y="177" width="147" text="Deporte1" measuredWidth="147" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:DateField" id="37" x="293" y="232" text="00/00/0000" measuredWidth="98" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="41" x="215" y="232" text="Fecha Evento" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="407" y="232" text="Dirigido A:" measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="43" x="580" y="164" width="369" height="165" text="Gestión Partidos" measuredWidth="369" measuredHeight="165">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="44" x="206" y="338" width="369" height="133" text="Gestión Equipos" measuredWidth="369" measuredHeight="133">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="49" x="327" y="392" measuredWidth="27" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="50" x="460" y="392" text="00/00/0000" measuredWidth="98" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="51" x="378" y="392" text="Fecha Evento" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="222" y="392" text="Cantidad Equipos" measuredWidth="106" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="53" x="580" y="338" width="369" height="133" text="Sello Vida Saludable" measuredWidth="369" measuredHeight="133">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="211" y="93" width="168" text="Deporte1" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="397" y="93" width="168" text="Deporte2" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="585" y="93" width="168" text="Deporte3" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="775" y="93" width="168" text="Deporte4" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="667" y="233" text="vs" measuredWidth="19" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="67" x="932" y="171" height="158" measuredWidth="17" measuredHeight="158"/>
+  <widgets xsi:type="model:Combo" id="68" x="594" y="233" width="68" text="Equipo1" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="71" x="683" y="233" width="72" text="Equipo2" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="74" x="640" y="264" width="113" text="00/00/0000" measuredWidth="113" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="75" x="593" y="264" text="Horario:" measuredWidth="52" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="216" y="183" text="ID Torneo" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="362" y="183" text="Lugar" measuredWidth="39" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="78" x="490" y="260" width="58" height="19" measuredWidth="58" measuredHeight="19"/>
+  <widgets xsi:type="model:Label" id="79" x="456" y="258" text="Foto:" measuredWidth="35" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="81" x="557" y="171" height="158" measuredWidth="17" measuredHeight="158"/>
+  <widgets xsi:type="model:Label" id="82" x="218" y="286" text="Descripción:" measuredWidth="77" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="289" y="183" text="Nombre" measuredWidth="52" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="85" x="215" y="202" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="86" x="289" y="202" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="87" x="361" y="202" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="88" x="436" y="183" text="Punt Neg" measuredWidth="59" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="89" x="434" y="202" width="55" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="90" x="293" y="287" width="254" height="36" text="A *paragraph* of text&#xA;A _second_ row of text" measuredWidth="254" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="91" x="471" y="232" width="79" text="Text field" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="500" y="183" text="Punt Pos" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="93" x="501" y="202" width="48" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="94" x="216" y="258" text="Premio:" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="95" x="263" y="258" width="89" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="96" x="359" y="258" text="QR:" measuredWidth="27" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="97" x="385" y="260" width="58" height="19" measuredWidth="58" measuredHeight="19"/>
+  <widgets xsi:type="model:Label" id="98" x="595" y="183" text="ID Partido" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="99" x="594" y="202" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="668" y="183" text="Fase" measuredWidth="33" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="101" x="667" y="202" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="744" y="182" text="Campo" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="103" x="743" y="201" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="774" y="261" text="Resultado:" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="105" x="842" y="261" text="Text field" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="773" y="232" text="ID Partido1:" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="107" x="842" y="232" text="Text field" measuredWidth="63" measuredHeight="23">
     <font/>
   </widgets>
   <hRuler/>
