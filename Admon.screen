@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="8" y="16" width="969" height="497" text="Administrador" measuredWidth="969" measuredHeight="497"/>
+  <widgets xsi:type="model:Window" id="1" x="8" y="16" width="969" height="497" text="Administrador" measuredWidth="969" measuredHeight="497" background="#eee"/>
   <widgets xsi:type="model:Group" id="3" x="24" y="83" width="177" height="278" text="Gestión" measuredWidth="177" measuredHeight="278">
-    <font/>
+    <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:List" id="4" x="72" y="110" width="113" height="243" text="Torneos&#xA;&#xA;Partidos&#xA;&#xA;Equipos&#xA;&#xA;Sello Vida &#xA;Saludable" measuredWidth="113" measuredHeight="243">
+  <widgets xsi:type="model:List" id="4" x="72" y="110" width="113" height="243" text="Torneos&#xA;&#xA;Partidos&#xA;&#xA;Equipos&#xA;&#xA;Sello Vida &#xA;Saludable" measuredWidth="113" measuredHeight="243" background="#900" alternative="#900">
     <font/>
     <items x="0" y="2" width="113" height="21" text="Torneos"/>
     <items x="0" y="23" width="113" height="21"/>
@@ -15,10 +15,10 @@
     <items x="0" y="128" width="113" height="21" text="Sello Vida "/>
     <items x="0" y="149" width="113" height="21" text="Saludable"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="5" x="38" y="110" measuredWidth="24" measuredHeight="24" icon="wizard (medium)"/>
-  <widgets xsi:type="model:Icon" id="7" x="34" y="190" width="31" measuredWidth="31" measuredHeight="32" icon="usergroup (large)"/>
-  <widgets xsi:type="model:Icon" id="8" x="34" y="150" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
-  <widgets xsi:type="model:Icon" id="10" x="34" y="243" measuredWidth="32" measuredHeight="32" icon="heart (large)"/>
+  <widgets xsi:type="model:Icon" id="5" x="38" y="110" measuredWidth="24" measuredHeight="24" foreground="#c00" icon="wizard (medium)"/>
+  <widgets xsi:type="model:Icon" id="7" x="34" y="190" width="31" measuredWidth="31" measuredHeight="32" foreground="#c00" icon="usergroup (large)"/>
+  <widgets xsi:type="model:Icon" id="8" x="34" y="150" measuredWidth="32" measuredHeight="32" foreground="#c00" icon="internet (large)"/>
+  <widgets xsi:type="model:Icon" id="10" x="34" y="243" measuredWidth="32" measuredHeight="32" foreground="#c00" icon="heart (large)"/>
   <widgets xsi:type="model:Menu" id="11" x="9" y="35" width="967" text="&amp;File,&amp;Edit,&amp;View,~&amp;Window~,&amp;Help" measuredWidth="967" measuredHeight="27">
     <items x="5" y="0" width="31" height="27" text="&amp;File"/>
     <items x="36" y="0" width="33" height="27" text="&amp;Edit"/>
@@ -27,10 +27,10 @@
     <items x="165" y="0" width="38" height="27" text="&amp;Help"/>
   </widgets>
   <widgets xsi:type="model:Group" id="23" x="206" y="164" width="369" height="165" text="Gestión Torneos" measuredWidth="369" measuredHeight="165">
-    <font/>
+    <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Group" id="25" x="20" y="370" width="185" height="133" text="Proximos Eventos" measuredWidth="185" measuredHeight="133">
-    <font/>
+    <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:DateField" id="27" x="39" y="406" width="147" text="13/02/2026" measuredWidth="147" measuredHeight="23"/>
   <widgets xsi:type="model:DateField" id="28" x="39" y="457" width="147" text="13/02/2026" measuredWidth="147" measuredHeight="23"/>
@@ -49,10 +49,10 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Group" id="43" x="580" y="164" width="369" height="165" text="Gestión Partidos" measuredWidth="369" measuredHeight="165">
-    <font/>
+    <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Group" id="44" x="206" y="338" width="369" height="133" text="Gestión Equipos" measuredWidth="369" measuredHeight="133">
-    <font/>
+    <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="49" x="302" y="416" width="48" measuredWidth="48" measuredHeight="23">
     <font/>
@@ -61,18 +61,18 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Group" id="53" x="580" y="338" width="369" height="133" text="Sello Vida Saludable" measuredWidth="369" measuredHeight="133">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="211" y="93" width="168" text="Deporte1" measuredWidth="168" measuredHeight="58" textAlignment="Center" foreground="#c00" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="54" x="211" y="93" width="168" text="Deporte1" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="55" x="397" y="93" width="168" text="Deporte2" measuredWidth="168" measuredHeight="58" textAlignment="Center" foreground="#c00" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="55" x="397" y="93" width="168" text="Deporte2" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="56" x="585" y="93" width="168" text="Deporte3" measuredWidth="168" measuredHeight="58" textAlignment="Center" foreground="#c00" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="56" x="585" y="93" width="168" text="Deporte3" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="57" x="775" y="93" width="168" text="Deporte4" measuredWidth="168" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="57" x="775" y="93" width="168" text="Deporte4" measuredWidth="168" measuredHeight="58" textAlignment="Center" foreground="#c00" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="58" x="667" y="233" text="vs" measuredWidth="19" measuredHeight="23">
@@ -203,9 +203,6 @@
   <widgets xsi:type="model:TextField" id="117" x="475" y="416" width="90" text="Text field" measuredWidth="90" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="121" x="729" y="376" width="177" text="Ranking" measuredWidth="177" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="122" x="596" y="381" text="Punt Neg" measuredWidth="59" measuredHeight="23">
     <font/>
   </widgets>
@@ -219,6 +216,16 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="126" x="121" y="528" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Chart" id="127" x="743" y="374" width="145" height="88" measuredWidth="145" measuredHeight="88" chartType="column"/>
+  <widgets xsi:type="model:Label" id="128" x="786" y="352" text="Ranking" measuredWidth="55" measuredHeight="23" foreground="#c00">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="129" x="314" y="474" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="131" x="640" y="474" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
   <hRuler/>
