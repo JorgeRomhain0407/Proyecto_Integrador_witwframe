@@ -66,49 +66,49 @@
   <widgets xsi:type="model:Label" id="24" x="520" y="141" width="177" text="Datos del Capitan" measuredWidth="177" measuredHeight="28" foreground="#fff">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="520" y="176" width="177" text="Nombre del Capitan" measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="25" x="520" y="168" width="177" text="Nombre del Capitan" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="26" x="520" y="201" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="26" x="520" y="193" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="520" y="231" width="177" text="Lista de Participantes" measuredWidth="177" measuredHeight="28" foreground="#fff">
+  <widgets xsi:type="model:Label" id="27" x="520" y="223" width="177" text="Lista de Participantes" measuredWidth="177" measuredHeight="28" foreground="#fff">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="28" x="520" y="256" width="177" text="Nº De Jugadores: " measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="28" x="520" y="248" width="177" text="Nº De Jugadores: " measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="29" x="632" y="257" width="41" measuredWidth="41" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="29" x="632" y="249" width="41" measuredWidth="41" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="30" x="514" y="288" height="88" text="Nombre,Apellido,Correo Electronico&#xA;Peter,Severin,alejda@hotvail.com&#xA;Henri,Severin,alejda@hotvail.com&#xA;Olga,Severin,alejda@hotvail.com&#xA;" measuredWidth="229" measuredHeight="88" alternative="#eee">
+  <widgets xsi:type="model:Table" id="30" x="514" y="280" height="88" text="Nombre,Apellido,Correo Electronico&#xA;Peter,Severin,alejda@hotvail.com&#xA;Henri,Severin,alejda@hotvail.com&#xA;Olga,Severin,alejda@hotvail.com&#xA;" measuredWidth="229" measuredHeight="88" alternative="#eee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="32" x="520" y="385" width="89" height="25" text="Añadir" measuredWidth="89" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="32" x="520" y="377" width="89" height="25" text="Añadir" measuredWidth="89" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="33" x="640" y="385" width="89" height="25" text="Quitar" measuredWidth="89" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="33" x="640" y="377" width="89" height="25" text="Quitar" measuredWidth="89" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="34" x="514" y="418" width="177" text="PERMISOS Y LEGAL" measuredWidth="177" measuredHeight="28" foreground="#fff">
+  <widgets xsi:type="model:Label" id="34" x="514" y="403" width="177" text="PERMISOS Y LEGAL" measuredWidth="177" measuredHeight="28" foreground="#fff">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Checkbox" id="36" x="514" y="441" text=" Soy Administrador " measuredWidth="141" measuredHeight="26" selected="true">
+  <widgets xsi:type="model:Checkbox" id="36" x="514" y="430" text=" Soy Administrador " measuredWidth="141" measuredHeight="26" selected="true">
     <font size="13px"/>
   </widgets>
-  <widgets xsi:type="model:Checkbox" id="37" x="512" y="493" text=" Mayor de 16 " measuredWidth="105" measuredHeight="26">
+  <widgets xsi:type="model:Checkbox" id="37" x="512" y="482" text=" Mayor de 16 " measuredWidth="105" measuredHeight="26">
     <font size="13px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="38" x="508" y="466" width="177" text="Codigo de Admin." measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="38" x="508" y="455" width="177" text="Codigo de Admin." measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="39" x="625" y="467" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="39" x="625" y="456" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Checkbox" id="41" x="511" y="514" text="Acepto Terminos y Condiciones" measuredWidth="211" measuredHeight="26">
+  <widgets xsi:type="model:Checkbox" id="41" x="511" y="503" text="Acepto Terminos y Condiciones" measuredWidth="211" measuredHeight="26">
     <font size="13px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="42" x="540" y="531" width="177" text="[Leer Terminos y Condiciones]" measuredWidth="177" measuredHeight="24" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="42" x="540" y="520" width="177" text="[Leer Terminos y Condiciones]" measuredWidth="177" measuredHeight="24" textAlignment="Center" foreground="#fff">
     <font size="12px" bold="false"/>
     <items x="12" y="3" width="150" height="16" text="Leer Terminos y Condiciones"/>
   </widgets>
@@ -118,19 +118,19 @@
   <widgets xsi:type="model:TextField" id="44" x="217" y="291" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="46" x="702" y="50" text="&lt; Volver a inicio" measuredWidth="89" measuredHeight="24">
+  <widgets xsi:type="model:Link" id="46" x="702" y="50" text="&lt; Volver a inicio" measuredWidth="89" measuredHeight="24" link="PaginaPrincipal.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="47" x="508" y="599" width="177" text="Escribe Captcha" measuredWidth="177" measuredHeight="26" foreground="#fff">
+  <widgets xsi:type="model:Label" id="47" x="508" y="592" width="177" text="Escribe Captcha" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="48" x="625" y="600" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="48" x="625" y="593" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="49" x="565" y="560" width="119" text="Z9ÑLM" measuredWidth="119" measuredHeight="24" textAlignment="Center" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="49" x="565" y="547" width="119" text="Z9ÑLM" measuredWidth="119" measuredHeight="24" textAlignment="Center" borderColor="#fff">
     <font italic="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="50" x="537" y="580" width="177" text="Captcha" measuredWidth="177" measuredHeight="21" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="50" x="537" y="567" width="177" text="Captcha" measuredWidth="177" measuredHeight="21" textAlignment="Center" foreground="#fff">
     <font size="11px" bold="false"/>
   </widgets>
   <hRuler/>

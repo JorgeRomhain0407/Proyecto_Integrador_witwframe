@@ -21,13 +21,11 @@
   <widgets xsi:type="model:Label" id="20" x="159" y="330" width="323" text="(Nombre de Capitan)" measuredWidth="323" measuredHeight="30" textAlignment="Center" foreground="#fff">
     <font size="16px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Inicio,&amp;Eventos,&amp;Mi Perfil,&amp;Ayuda,&amp;Cerrar" measuredWidth="1427" measuredHeight="32" selection="0">
+  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inici,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0">
     <font/>
-    <items x="0" y="0" width="250" height="32" text="&amp;Inicio"/>
-    <items x="250" y="0" width="308" height="32" text="&amp;Eventos"/>
-    <items x="558" y="0" width="318" height="32" text="&amp;Mi Perfil"/>
-    <items x="876" y="0" width="274" height="32" text="&amp;Ayuda"/>
-    <items x="1150" y="0" width="277" height="32" text="&amp;Cerrar"/>
+    <items x="0" y="0" width="557" height="32" text="&amp;Mi Perfil"/>
+    <items x="557" y="0" width="373" height="32" text="&amp;Inici"/>
+    <items x="930" y="0" width="497" height="32" text="&amp;Ayuda"/>
   </widgets>
   <widgets xsi:type="model:Label" id="27" x="90" y="141" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>
