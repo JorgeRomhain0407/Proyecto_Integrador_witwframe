@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="8" y="16" width="969" height="497" text="Administrador" measuredWidth="969" measuredHeight="497" background="#eee"/>
+  <widgets xsi:type="model:Window" id="1" x="8" y="16" width="969" height="497" text="UEM Events" measuredWidth="969" measuredHeight="497" background="#eee"/>
   <widgets xsi:type="model:Group" id="3" x="24" y="83" width="177" height="278" text="Gestión" measuredWidth="177" measuredHeight="278">
     <font bold="true"/>
   </widgets>
@@ -221,11 +221,12 @@
   <widgets xsi:type="model:Button" id="131" x="640" y="474" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="132" x="8" y="35" width="969" height="37" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="969" measuredHeight="37" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="132" x="8" y="35" width="969" height="37" text="&amp;Mi Perfil,&amp;Inicio,&amp;Eventos,&amp;Ayuda" measuredWidth="969" measuredHeight="37" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="362" height="37" text="&amp;Mi Perfil"/>
-    <items link="PaginaPrincipal(Logeado).screen" x="362" y="0" width="282" height="37" text="&amp;Inicio"/>
-    <items link="Ayudas.screen" x="644" y="0" width="325" height="37" text="&amp;Ayuda"/>
+    <items x="0" y="0" width="266" height="37" text="&amp;Mi Perfil"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="266" y="0" width="207" height="37" text="&amp;Inicio"/>
+    <items link="Eventos(VistaGeneral).screen" x="473" y="0" width="257" height="37" text="&amp;Eventos"/>
+    <items link="Ayudas.screen" x="730" y="0" width="239" height="37" text="&amp;Ayuda"/>
   </widgets>
   <hRuler/>
   <vRuler/>
