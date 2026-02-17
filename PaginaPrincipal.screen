@@ -1,98 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="25" x="640" y="103" width="720" height="480" text="Window" measuredWidth="720" measuredHeight="480" background="#999"/>
-  <widgets xsi:type="model:LinkBar" id="17" x="1216" y="142" text="Register, Login" measuredWidth="96" measuredHeight="25">
+  <widgets xsi:type="model:Window" id="25" x="-248" y="32" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
+  <widgets xsi:type="model:LinkBar" id="17" x="328" y="71" text="Register, Login" measuredWidth="96" measuredHeight="25">
     <font/>
-    <items x="0" y="0" width="45" height="25" text="Register"/>
-    <items x="63" y="0" width="32" height="25" text="Login"/>
+    <items link="Registro.screen" x="0" y="0" width="45" height="25" text="Register"/>
+    <items link="Login.screen" x="63" y="0" width="32" height="25" text="Login"/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="20" x="688" y="188" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Window" id="23" x="-192" y="124" width="792" height="424" text="Window" measuredWidth="792" measuredHeight="424" background="#999"/>
-  <widgets xsi:type="model:Window" id="89" x="-112" y="172" width="644" height="328" text="GOOD TO SEE YOU AGAIN" measuredWidth="644" measuredHeight="328" background="#ccc"/>
-  <widgets xsi:type="model:TextField" id="5" x="-6" y="210" width="201" text="Your Email" measuredWidth="201" measuredHeight="25" background="#f00">
+  <widgets xsi:type="model:TextArea" id="20" x="-200" y="117" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="6" x="-6" y="242" width="465" height="73" measuredWidth="465" measuredHeight="73" background="#999"/>
-  <widgets xsi:type="model:Icon" id="7" x="-6" y="247" width="69" height="68" measuredWidth="69" measuredHeight="68" foreground="#f00" icon="user (custom)"/>
-  <widgets xsi:type="model:Panel" id="8" x="-6" y="362" width="465" height="73" measuredWidth="465" measuredHeight="73" background="#999"/>
-  <widgets xsi:type="model:Icon" id="9" x="-6" y="372" width="69" height="63" measuredWidth="69" measuredHeight="63" foreground="#f00" icon="secure (custom)"/>
-  <widgets xsi:type="model:TextField" id="10" x="-6" y="330" width="201" text="Your Password" measuredWidth="201" measuredHeight="25" background="#f00">
+  <widgets xsi:type="model:Image" id="84" x="-185" y="217" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="86" x="-185" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="11" x="240" y="450" text="Forgot password?" measuredWidth="99" measuredHeight="24">
+  <widgets xsi:type="model:Image" id="92" x="36" y="217" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Image" id="94" x="248" y="217" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="95" x="40" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="12" x="86" y="268" width="329" text="e.g Xujie12345@gmail.com" measuredWidth="329" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="96" x="248" y="449" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="13" x="86" y="386" width="329" text="e.g Contraseña12345" measuredWidth="329" measuredHeight="25">
+  <widgets xsi:type="model:ButtonBar" id="98" x="-200" y="71" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
     <font/>
-  </widgets>
-  <widgets xsi:type="model:Menu" id="24" x="688" y="140" width="496" text="Home, Profile,Events,Help" measuredWidth="496" measuredHeight="30">
-    <items x="5" y="0" width="44" height="30" text="Home"/>
-    <items x="49" y="0" width="44" height="30" text="Profile"/>
-    <items x="93" y="0" width="45" height="30" text="Events"/>
-    <items x="138" y="0" width="36" height="30" text="Help"/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="32" x="1024" y="193" width="288" height="60" measuredWidth="288" measuredHeight="60"/>
-  <widgets xsi:type="model:Window" id="33" x="-169" y="592" width="792" height="424" text="Window" measuredWidth="792" measuredHeight="424" background="#999"/>
-  <widgets xsi:type="model:TextField" id="45" x="-6" y="675" width="201" text="Responda a las siguientes preguntas" measuredWidth="201" measuredHeight="25" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Window" id="90" x="-102" y="652" width="644" height="328" text="GOOD TO SEE YOU AGAIN" measuredWidth="644" measuredHeight="328" background="#ccc"/>
-  <widgets xsi:type="model:Panel" id="46" x="-6" y="704" width="465" height="235" measuredWidth="465" measuredHeight="235" background="#999"/>
-  <widgets xsi:type="model:TextField" id="52" x="88" y="721" width="329" text="PREGUNTA 1" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="55" x="88" y="753" width="329" text="RESPUESTA 1" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="56" x="46" y="724" width="33" height="20" measuredWidth="33" measuredHeight="20" foreground="#f00" icon="help (custom)"/>
-  <widgets xsi:type="model:TextField" id="57" x="88" y="803" width="329" text="PREGUNTA 2" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="58" x="88" y="833" width="329" text="RESPUESTA 2" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="59" x="45" y="806" width="36" height="20" measuredWidth="36" measuredHeight="20" foreground="#f00" icon="help (custom)"/>
-  <widgets xsi:type="model:VScrollbar" id="60" x="432" y="724" height="183" measuredWidth="17" measuredHeight="183"/>
-  <widgets xsi:type="model:Button" id="62" x="109" y="881" width="256" height="34" text="CONTINUAR" measuredWidth="256" measuredHeight="34" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="63" x="91" y="444" width="104" height="36" text="LOGIN" measuredWidth="104" measuredHeight="36" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Window" id="67" x="650" y="604" width="792" height="424" text="Window" measuredWidth="792" measuredHeight="424" background="#999"/>
-  <widgets xsi:type="model:Window" id="91" x="703" y="652" width="644" height="328" text="GOOD TO SEE YOU AGAIN" measuredWidth="644" measuredHeight="328" background="#ccc"/>
-  <widgets xsi:type="model:Panel" id="70" x="800" y="699" width="479" height="253" measuredWidth="479" measuredHeight="253" background="#999"/>
-  <widgets xsi:type="model:TextField" id="71" x="881" y="708" width="329" text="Introduzca la nueva contraseña" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="72" x="881" y="753" width="329" text="NuevaContraseña123" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="74" x="881" y="809" width="329" text="Repita la contraseña para confirmar" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="75" x="881" y="857" width="329" text="NuevaContraseña123" measuredWidth="329" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="78" x="904" y="899" width="242" height="24" text="CONTINUAR" measuredWidth="242" measuredHeight="24" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="84" x="688" y="288" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
-  <widgets xsi:type="model:Button" id="86" x="688" y="523" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="92" x="896" y="288" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
-  <widgets xsi:type="model:Image" id="94" x="1104" y="288" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
-  <widgets xsi:type="model:Button" id="95" x="896" y="523" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#f00">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="96" x="1104" y="523" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#f00">
-    <font/>
+    <items x="0" y="0" width="114" height="28" text="Inicio"/>
+    <items link="Perfil.screen" x="114" y="0" width="106" height="28" text="Perfil"/>
+    <items link="Eventos(VistaGeneral).screen" x="220" y="0" width="143" height="28" text="Eventos"/>
+    <items link="Ayudas.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
   </widgets>
   <hRuler>
     <guides position="-282"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="10" y="10" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
+  <widgets xsi:type="model:TextArea" id="3" x="58" y="95" width="288" height="70" text="BIENVENIDO!&#xD;&#xA;Gracias por unirte a nosotros, ya puedes participar en todos nuestros eventos" measuredWidth="288" measuredHeight="70" background="#900">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="5" x="73" y="195" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="6" x="73" y="430" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="7" x="294" y="195" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Image" id="8" x="506" y="195" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
+  <widgets xsi:type="model:Button" id="9" x="298" y="430" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="506" y="427" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Eventos(VistaGeneral).screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="11" x="58" y="49" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
+    <font/>
+    <items x="0" y="0" width="114" height="28" text="Inicio"/>
+    <items link="Perfil.screen" x="114" y="0" width="106" height="28" text="Perfil"/>
+    <items link="Eventos(VistaGeneral).screen" x="220" y="0" width="143" height="28" text="Eventos"/>
+    <items link="Ayudas.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="576" y="50" width="137" text="NombreDelEquipo" measuredWidth="137" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="13" x="576" y="92" width="137" height="76" measuredWidth="137" measuredHeight="76" icon="usergroup (custom)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
