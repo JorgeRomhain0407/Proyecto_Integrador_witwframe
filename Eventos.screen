@@ -5,23 +5,23 @@
     <font size="43px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="51" x="856" y="142" width="424" height="618" measuredWidth="424" measuredHeight="618" background="#900"/>
-  <widgets xsi:type="model:Label" id="9" x="933" y="154" text="En directo {history}" measuredWidth="269" measuredHeight="65" foreground="#fff">
+  <widgets xsi:type="model:Label" id="9" x="933" y="154" text="En directo {history}" measuredWidth="267" measuredHeight="65" foreground="#fff">
     <font size="43px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="11" x="856" y="144" height="616" measuredWidth="6" measuredHeight="616"/>
-  <widgets xsi:type="model:Label" id="23" x="294" y="212" width="88" text="Fecha:" measuredWidth="88" measuredHeight="46">
+  <widgets xsi:type="model:Label" id="23" x="294" y="212" width="88" text="Fecha:" measuredWidth="88" measuredHeight="45">
     <font size="28px" bold="true" italic="false" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="25" x="381" y="218" width="272" text=" 12-14 Febrero 2026" measuredWidth="272" measuredHeight="40">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="26" x="294" y="269" text="Ubicación:" measuredWidth="143" measuredHeight="46">
+  <widgets xsi:type="model:Label" id="26" x="294" y="269" text="Ubicación:" measuredWidth="143" measuredHeight="45">
     <font size="28px" bold="true" italic="false" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="27" x="446" y="275" width="272" text="Polideportivo X" measuredWidth="272" measuredHeight="40">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="28" x="294" y="331" text="Premio:" measuredWidth="108" measuredHeight="46">
+  <widgets xsi:type="model:Label" id="28" x="294" y="331" text="Premio:" measuredWidth="108" measuredHeight="45">
     <font size="28px" bold="true" italic="false" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="29" x="414" y="337" width="272" text="A definir" measuredWidth="272" measuredHeight="40">
@@ -51,27 +51,27 @@
   <widgets xsi:type="model:TextField" id="50" x="485" y="472" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#900" alpha="192" borderColor="#600">
     <font size="32px"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="53" x="265" y="115" width="1016" height="29" text="Eventos, Inicio, Perfil, Ayuda" measuredWidth="1016" measuredHeight="29" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="53" x="265" y="115" width="1016" height="38" text="Eventos, Inicio, Perfil, Ayuda" measuredWidth="1016" measuredHeight="38" selection="0" background="#900">
     <font/>
-    <items link="Eventos(VistaGeneral).screen" x="0" y="0" width="294" height="29" text="Eventos"/>
-    <items link="PaginaPrincipal.screen" x="294" y="0" width="232" height="29" text="Inicio"/>
-    <items link="Perfil.screen" x="526" y="0" width="217" height="29" text="Perfil"/>
-    <items link="Ayudas.screen" x="743" y="0" width="273" height="29" text="Ayuda"/>
+    <items link="Eventos(VistaGeneral).screen" x="0" y="0" width="292" height="38" text="Eventos"/>
+    <items link="PaginaPrincipal.screen" x="292" y="0" width="234" height="38" text="Inicio"/>
+    <items link="Perfil.screen" x="526" y="0" width="220" height="38" text="Perfil"/>
+    <items link="Ayudas.screen" x="746" y="0" width="270" height="38" text="Ayuda"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="54" x="285" y="568" width="557" height="168" measuredWidth="557" measuredHeight="168"/>
-  <widgets xsi:type="model:Label" id="55" x="309" y="584" text="Nombre De Equipo" measuredWidth="177" measuredHeight="35">
+  <widgets xsi:type="model:Label" id="55" x="309" y="584" text="Nombre De Equipo" measuredWidth="179" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:TextField" id="56" x="496" y="585" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
     <font size="19px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="57" x="414" y="634" text="Capitán" measuredWidth="73" measuredHeight="35">
+  <widgets xsi:type="model:Label" id="57" x="414" y="634" text="Capitán" measuredWidth="73" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:TextField" id="58" x="496" y="635" width="297" text="Text field" measuredWidth="297" measuredHeight="33">
     <font size="19px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="59" x="362" y="691" text="Nº Jugadores" measuredWidth="125" measuredHeight="35">
+  <widgets xsi:type="model:Label" id="59" x="362" y="691" text="Nº Jugadores" measuredWidth="127" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="60" x="496" y="692" width="48" measuredWidth="48" measuredHeight="33">

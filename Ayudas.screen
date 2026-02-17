@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="16" y="16" width="1041" height="689" text="Ayudas" measuredWidth="1041" measuredHeight="689"/>
-  <widgets xsi:type="model:ButtonBar" id="2" x="16" y="35" width="1040" height="46" text="Ayudas,Inicio,Eventos,Perfil" measuredWidth="1040" measuredHeight="46" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="2" x="16" y="35" width="1040" height="38" text="Ayudas,Inicio,Eventos,Perfil" measuredWidth="1040" measuredHeight="38" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="279" height="46" text="Ayudas"/>
-    <items link="PaginaPrincipal.screen" x="279" y="0" width="235" height="46" text="Inicio"/>
-    <items link="Eventos(VistaGeneral).screen" x="514" y="0" width="292" height="46" text="Eventos"/>
-    <items link="Perfil.screen" x="806" y="0" width="234" height="46" text="Perfil"/>
+    <items x="0" y="0" width="279" height="38" text="Ayudas"/>
+    <items link="PaginaPrincipal.screen" x="279" y="0" width="235" height="38" text="Inicio"/>
+    <items link="Eventos(VistaGeneral).screen" x="514" y="0" width="292" height="38" text="Eventos"/>
+    <items link="Perfil.screen" x="806" y="0" width="234" height="38" text="Perfil"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="48" y="104" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
+  <widgets xsi:type="model:Label" id="4" x="48" y="96" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
     <font size="24px" bold="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="5" x="112" y="176" width="248" text="- Como Registrar  a un equipo" measuredWidth="248" measuredHeight="32" link="Registro.screen">
@@ -53,7 +53,7 @@
   <widgets xsi:type="model:TextArea" id="21" x="16" y="667" width="1040" height="38" text="Estado: Documentación actualizada a Feb 2026 | Versión App: 1.0.2" measuredWidth="1040" measuredHeight="38" textAlignment="Center" background="#900">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="535" y="103" width="512" text="Guia Rapida" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
+  <widgets xsi:type="model:Label" id="22" x="531" y="95" width="512" text="Guia Rapida" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="23" x="575" y="151" width="488" text="Sello de Vida Saludable" measuredWidth="488" measuredHeight="33" foreground="#900">

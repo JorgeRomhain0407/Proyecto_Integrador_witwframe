@@ -21,7 +21,7 @@
   <widgets xsi:type="model:Label" id="20" x="159" y="330" width="323" text="(Nombre de Capitan)" measuredWidth="323" measuredHeight="30" textAlignment="Center" foreground="#fff">
     <font size="16px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0">
+  <widgets xsi:type="model:ButtonBar" id="24" x="128" y="110" width="1427" height="32" text="&amp;Mi Perfil,&amp;Inicio,&amp;Ayuda" measuredWidth="1427" measuredHeight="32" selection="0" background="#900">
     <font/>
     <items x="0" y="0" width="534" height="32" text="&amp;Mi Perfil"/>
     <items link="PaginaPrincipal.screen" x="534" y="0" width="416" height="32" text="&amp;Inicio"/>

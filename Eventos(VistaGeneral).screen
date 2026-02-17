@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="16" y="8" width="1065" height="705" text="UEM Events" measuredWidth="1065" measuredHeight="705"/>
-  <widgets xsi:type="model:ButtonBar" id="2" x="16" y="27" width="1065" height="30" text="Eventos,Inicio,Perfil,Ayudas" measuredWidth="1065" measuredHeight="30" selection="0" background="#900">
+  <widgets xsi:type="model:ButtonBar" id="2" x="16" y="27" width="1065" height="38" text="Eventos,Inicio,Perfil,Ayudas" measuredWidth="1065" measuredHeight="38" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="300" height="30" text="Eventos"/>
-    <items link="PaginaPrincipal.screen" x="300" y="0" width="241" height="30" text="Inicio"/>
-    <items link="Perfil.screen" x="541" y="0" width="227" height="30" text="Perfil"/>
-    <items link="Ayudas.screen" x="768" y="0" width="297" height="30" text="Ayudas"/>
+    <items x="0" y="0" width="300" height="38" text="Eventos"/>
+    <items link="PaginaPrincipal.screen" x="300" y="0" width="241" height="38" text="Inicio"/>
+    <items link="Perfil.screen" x="541" y="0" width="227" height="38" text="Perfil"/>
+    <items link="Ayudas.screen" x="768" y="0" width="297" height="38" text="Ayudas"/>
   </widgets>
   <widgets xsi:type="model:Label" id="6" x="80" y="56" width="273" text="Eventos Destacados" measuredWidth="273" measuredHeight="40" foreground="#900">
     <font size="24px" bold="true"/>
