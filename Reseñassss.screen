@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="264" y="96" width="1017" height="665" text="UEM Events" measuredWidth="1017" measuredHeight="665" background="#eee" minimizeButton="true"/>
+  <widgets xsi:type="model:Label" id="2" x="328" y="144" width="472" text="Información del evento" measuredWidth="472" measuredHeight="65" textAlignment="Center">
+    <font size="43px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="856" y="142" width="424" height="618" measuredWidth="424" measuredHeight="618" background="#900"/>
+  <widgets xsi:type="model:Label" id="4" x="933" y="154" text="En directo {history}" measuredWidth="269" measuredHeight="65" foreground="#fff">
+    <font size="43px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="5" x="856" y="143" height="616" measuredWidth="6" measuredHeight="616"/>
+  <widgets xsi:type="model:Label" id="6" x="294" y="212" width="88" text="Fecha:" measuredWidth="88" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="381" y="218" width="272" text=" 12-14 Febrero 2026" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="294" y="269" text="Ubicación:" measuredWidth="143" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="446" y="275" width="272" text="Polideportivo X" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="294" y="331" text="Premio:" measuredWidth="108" measuredHeight="46">
+    <font size="28px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="414" y="337" width="272" text="10k Euros" measuredWidth="272" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="285" y="400" width="557" text="TIEMPO RESTANTE DE REGISTRO - FINALIZADO" measuredWidth="557" measuredHeight="46" background="#900" borderColor="#900">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="13" x="896" y="240" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="14" x="896" y="288" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="15" x="896" y="342" width="24" height="24" measuredWidth="24" measuredHeight="24" background="#000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="942" y="231" width="272" text="Jornada 2" measuredWidth="272" measuredHeight="40" foreground="#f3f3f3">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="942" y="280" width="272" text="Equipo Z vs Equipo E" measuredWidth="272" measuredHeight="40" foreground="#eee">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="932" y="334" width="272" text="Torneo de Padel " measuredWidth="272" measuredHeight="40" foreground="#eee">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="19" x="472" y="664" width="168" text="Registrarse" measuredWidth="168" measuredHeight="51" background="#444" alpha="192" borderColor="#666">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="20" x="265" y="115" width="1016" height="38" text="Eventos, Inicio, Perfil, Ayuda" measuredWidth="1016" measuredHeight="38" selection="0" background="#900">
+    <font/>
+    <items link="Eventos(VistaGeneral).screen" x="0" y="0" width="294" height="38" text="Eventos"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="294" y="0" width="232" height="38" text="Inicio"/>
+    <items link="Perfil.screen" x="526" y="0" width="217" height="38" text="Perfil"/>
+    <items link="Ayudas.screen" x="743" y="0" width="273" height="38" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="21" x="285" y="461" width="557" height="168" measuredWidth="557" measuredHeight="168"/>
+  <widgets xsi:type="model:Label" id="22" x="316" y="477" text="Nombre De Equipo" measuredWidth="177" measuredHeight="35">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="503" y="478" width="297" text="Text field" measuredWidth="297" measuredHeight="33" state="disabled">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="421" y="527" text="Capitán" measuredWidth="73" measuredHeight="35">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="503" y="528" width="297" text="Text field" measuredWidth="297" measuredHeight="33" state="disabled">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="369" y="584" text="Nº Jugadores" measuredWidth="125" measuredHeight="35">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="27" x="503" y="585" width="48" measuredWidth="48" measuredHeight="33" state="disabled">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="57" x="857" y="448" width="420" measuredWidth="420" measuredHeight="6"/>
+  <widgets xsi:type="model:Group" id="58" x="883" y="466" width="369" height="272" text="Reseñas" measuredWidth="369" measuredHeight="272" verticalScrollbar="true">
+    <font size="20px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="61" x="896" y="497" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="62" x="931" y="498" width="272" text="Gaston Garrido -" measuredWidth="272" measuredHeight="29">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="60" x="1068" y="501" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="63" x="1091" y="501" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="64" x="1114" y="501" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="65" x="1137" y="501" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="66" x="1160" y="501" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:TextArea" id="74" x="932" y="528" width="284" height="67" text="&quot;¡Excelente organización en la Jornada 1! &#xA;Esperando el próximo torneo.&quot;" measuredWidth="284" measuredHeight="67" borderColor="#fff">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="75" x="895" y="586" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Label" id="76" x="930" y="587" width="272" text="Equipo Z -" measuredWidth="272" measuredHeight="29">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="77" x="1022" y="590" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="78" x="1045" y="590" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="79" x="1068" y="590" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:Icon" id="80" x="1091" y="590" measuredWidth="24" measuredHeight="24" foreground="#ffd966" icon="favorites (medium)"/>
+  <widgets xsi:type="model:TextArea" id="82" x="931" y="617" width="284" height="67" text="&quot;Buen ambiente, pero el partido empezó un poco tarde.&quot;" measuredWidth="284" measuredHeight="67" borderColor="#fff">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="84" x="883" y="687" width="354" measuredWidth="354" measuredHeight="6" lineStyle="dashed"/>
+  <widgets xsi:type="model:TextField" id="87" x="894" y="703" width="332" text=" Escribe tu reseña..." measuredWidth="332" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="89" x="1201" y="707" width="23" height="18" measuredWidth="23" measuredHeight="18" icon="filled-arrow-right (custom)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
