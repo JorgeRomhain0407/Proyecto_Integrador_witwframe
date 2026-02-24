@@ -212,13 +212,13 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Chart" id="127" x="743" y="374" width="145" height="88" measuredWidth="145" measuredHeight="88" chartType="column"/>
-  <widgets xsi:type="model:Label" id="128" x="786" y="352" text="Ranking" measuredWidth="52" measuredHeight="24" foreground="#c00">
-    <font bold="true"/>
+  <widgets xsi:type="model:Label" id="128" x="786" y="352" text="Logros" measuredWidth="52" measuredHeight="28" foreground="#c00">
+    <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="129" x="314" y="474" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="129" x="293" y="474" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="131" x="640" y="474" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="131" x="720" y="474" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="132" x="8" y="35" width="969" height="37" text="&amp;Mi Perfil,&amp;Inicio,&amp;Eventos,&amp;Ayuda" measuredWidth="969" measuredHeight="37" selection="0" background="#900">
@@ -227,6 +227,9 @@
     <items link="PaginaPrincipal(Logeado).screen" x="266" y="0" width="207" height="37" text="&amp;Inicio"/>
     <items link="Eventos(VistaGeneral).screen" x="473" y="0" width="257" height="37" text="&amp;Eventos"/>
     <items link="Ayudas.screen" x="730" y="0" width="239" height="37" text="&amp;Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="133" x="507" y="474" width="135" height="31" text="Consultar" measuredWidth="135" measuredHeight="31" background="#900">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

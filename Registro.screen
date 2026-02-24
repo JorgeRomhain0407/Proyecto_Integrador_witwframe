@@ -23,13 +23,13 @@
   <widgets xsi:type="model:Label" id="10" x="216" y="167" width="177" text="Nombre del Equipo(Usuario):" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="12" x="216" y="192" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="12" x="216" y="192" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="13" x="217" y="218" text="Contraseña: (Unica p/equipo)" measuredWidth="185" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="14" x="217" y="243" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="14" x="217" y="243" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="15" x="216" y="327" width="177" text="Recuperacion" measuredWidth="177" measuredHeight="28" foreground="#fff">
@@ -38,25 +38,25 @@
   <widgets xsi:type="model:Label" id="16" x="216" y="354" width="177" text="Pregunta de Seguridad 1:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="17" x="216" y="380" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="17" x="216" y="380" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="18" x="216" y="404" width="177" text="Pregunta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="19" x="216" y="430" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="19" x="216" y="430" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="20" x="216" y="457" width="177" text="Respuesta de Seguridad 1:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="21" x="216" y="483" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="21" x="216" y="483" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="22" x="216" y="510" width="177" text="Respuesta de Seguridad 2:" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="23" x="216" y="536" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="23" x="216" y="536" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="24" x="520" y="141" width="177" text="Datos del Capitan" measuredWidth="177" measuredHeight="28" foreground="#fff">
@@ -65,7 +65,7 @@
   <widgets xsi:type="model:Label" id="25" x="520" y="168" width="177" text="Nombre del Capitan" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="26" x="520" y="193" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="26" x="520" y="193" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="27" x="520" y="223" width="177" text="Lista de Participantes" measuredWidth="177" measuredHeight="28" foreground="#fff">
@@ -74,7 +74,7 @@
   <widgets xsi:type="model:Label" id="28" x="520" y="248" width="177" text="Nº De Jugadores: " measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="29" x="632" y="249" width="41" measuredWidth="41" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="29" x="632" y="249" width="41" measuredWidth="41" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Table" id="30" x="514" y="280" height="88" text="Nombre,Apellido,Correo Electronico&#xA;Peter,Severin,alejda@hotvail.com&#xA;Henri,Severin,alejda@hotvail.com&#xA;Olga,Severin,alejda@hotvail.com&#xA;" measuredWidth="229" measuredHeight="88" alternative="#eee">
@@ -98,7 +98,7 @@
   <widgets xsi:type="model:Label" id="38" x="508" y="455" width="177" text="Codigo de Admin." measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="39" x="625" y="456" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="39" x="625" y="456" width="119" measuredWidth="119" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Checkbox" id="41" x="511" y="503" text="Acepto Terminos y Condiciones" measuredWidth="211" measuredHeight="26">
@@ -111,7 +111,7 @@
   <widgets xsi:type="model:Label" id="43" x="217" y="266" text="Repetir Contraseña: " measuredWidth="130" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="44" x="217" y="291" width="209" measuredWidth="209" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="44" x="217" y="291" width="209" measuredWidth="209" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Link" id="46" x="702" y="53" text="&lt; Volver a inicio" measuredWidth="89" measuredHeight="24" link="PaginaPrincipal.screen">
@@ -120,7 +120,7 @@
   <widgets xsi:type="model:Label" id="47" x="508" y="592" width="177" text="Escribe Captcha" measuredWidth="177" measuredHeight="26" foreground="#fff">
     <font size="13px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="48" x="625" y="593" width="119" measuredWidth="119" measuredHeight="24" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="48" x="625" y="593" width="119" measuredWidth="119" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextField" id="49" x="565" y="547" width="119" text="Z9ÑLM" measuredWidth="119" measuredHeight="24" textAlignment="Center" borderColor="#fff">

@@ -33,4 +33,7 @@
   <panels id="4C8BTUkrE_iMrHng5VrbLmoJAHo=" x="675" y="675">
     <screen href="Perfil.screen#/"/>
   </panels>
+  <panels id="kIdLpuBPFZlPMTltVHaxvWs_-V0=" x="960" y="675">
+    <screen href="PaginaPrincipal(Admin).screen#/"/>
+  </panels>
 </story:Storyboard>
