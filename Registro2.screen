@@ -17,7 +17,7 @@
   <widgets xsi:type="model:Label" id="23" x="224" y="162" width="177" text="Nombre del Capitan" measuredWidth="177" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="24" x="224" y="193" width="505" measuredWidth="505" measuredHeight="24">
+  <widgets xsi:type="model:TextField" id="24" x="398" y="166" width="339" measuredWidth="339" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="25" x="224" y="222" width="211" text="Lista de Participantes" measuredWidth="211" measuredHeight="33" foreground="#fff">
@@ -83,6 +83,18 @@
   </widgets>
   <widgets xsi:type="model:Button" id="49" x="541" y="606" width="136" height="41" text="Registrar" measuredWidth="136" measuredHeight="41" link="Login.screen">
     <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="492" y="222" width="211" text="Nivel" measuredWidth="211" measuredHeight="33" foreground="#fff">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="53" x="492" y="251" width="116" text="Nivel (1-3)" measuredWidth="116" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="224" y="189" width="177" text="Correo Electronico" measuredWidth="177" measuredHeight="32" foreground="#fff">
+    <font size="17px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="55" x="397" y="193" width="339" measuredWidth="339" measuredHeight="24">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
