@@ -87,6 +87,7 @@
   <widgets xsi:type="model:Icon" id="40" x="412" y="570" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="bar-chart (custom)"/>
   <widgets xsi:type="model:Image" id="41" x="776" y="480" width="232" height="184" text="Work in progress" measuredWidth="232" measuredHeight="184"/>
   <widgets xsi:type="model:Image" id="44" x="160" y="112" width="760" height="176" measuredWidth="760" measuredHeight="176" src="assets/Gemini_Generated_Image_8qzvd08qzvd08qzv.png"/>
+  <widgets xsi:type="model:Image" id="45" x="776" y="479" width="232" height="184" measuredWidth="232" measuredHeight="184" src="assets/409-4092711_proximamente-png.png"/>
   <hRuler/>
   <vRuler>
     <guides position="26"/>
