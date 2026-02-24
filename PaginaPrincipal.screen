@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="25" x="-248" y="32" width="720" height="480" text="UEM Events" measuredWidth="720" measuredHeight="480" background="#ccc"/>
-  <widgets xsi:type="model:LinkBar" id="17" x="320" y="72" text="Register, Login" measuredWidth="98" measuredHeight="24">
+  <widgets xsi:type="model:LinkBar" id="17" x="320" y="72" text="Register, Login" measuredWidth="96" measuredHeight="25">
     <font/>
-    <items link="Registro.screen" x="0" y="0" width="46" height="24" text="Register"/>
-    <items link="Login.screen" x="64" y="0" width="33" height="24" text="Login"/>
+    <items link="Registro.screen" x="0" y="0" width="45" height="25" text="Register"/>
+    <items link="Login.screen" x="63" y="0" width="32" height="25" text="Login"/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="20" x="-200" y="117" width="288" height="70" text="Únete para conseguir la insignia de Vida Saluable&#xA;&#xA;Participa totalmente gratuito en nuestros torneos :D" measuredWidth="288" measuredHeight="70" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Image" id="84" x="-185" y="217" width="152" height="212" text="FÚTBOL" measuredWidth="152" measuredHeight="212" border="true"/>
   <widgets xsi:type="model:Button" id="86" x="-185" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Image" id="92" x="36" y="217" width="152" height="212" text="PÁDEL" measuredWidth="152" measuredHeight="212" border="true"/>
-  <widgets xsi:type="model:Image" id="94" x="248" y="217" width="152" height="212" text="PRÓXIMAMENTE" measuredWidth="152" measuredHeight="212" border="true"/>
   <widgets xsi:type="model:Button" id="95" x="40" y="452" width="152" height="38" text="VER MÁS" measuredWidth="152" measuredHeight="38" background="#900" link="Login.screen">
     <font/>
   </widgets>
@@ -23,15 +20,20 @@
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="98" x="-200" y="71" width="496" height="28" text="Inicio, Perfil, Eventos, Ayuda" measuredWidth="496" measuredHeight="28" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="115" height="28" text="Inicio"/>
-    <items link="Login.screen" x="115" y="0" width="107" height="28" text="Perfil"/>
-    <items link="Login.screen" x="222" y="0" width="141" height="28" text="Eventos"/>
+    <items x="0" y="0" width="114" height="28" text="Inicio"/>
+    <items link="Login.screen" x="114" y="0" width="106" height="28" text="Perfil"/>
+    <items link="Login.screen" x="220" y="0" width="143" height="28" text="Eventos"/>
     <items link="Login.screen" x="363" y="0" width="133" height="28" text="Ayuda"/>
   </widgets>
   <widgets xsi:type="model:Label" id="99" x="-234" y="99" text="Logo" measuredWidth="24" measuredHeight="18">
     <font size="8px"/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="100" x="-238" y="70" width="32" height="30" measuredWidth="32" measuredHeight="30"/>
+  <widgets xsi:type="model:WidgetGroup" id="104" x="-185" y="216" measuredWidth="160" measuredHeight="213">
+    <widgets xsi:type="model:Image" id="103" width="160" height="213" measuredWidth="160" measuredHeight="213" src="imágenes/Caracteristicas-del-Futbol.jpg"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="105" x="16" y="216" width="184" height="213" measuredWidth="184" measuredHeight="213" src="imágenes/padel.jpg"/>
+  <widgets xsi:type="model:Image" id="106" x="236" y="216" width="176" height="212" measuredWidth="176" measuredHeight="212" src="imágenes/409-4092711_proximamente-png.png"/>
   <hRuler>
     <guides position="-282"/>
   </hRuler>
