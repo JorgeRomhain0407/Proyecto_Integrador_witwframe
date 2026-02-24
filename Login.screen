@@ -24,7 +24,7 @@
   <widgets xsi:type="model:Button" id="12" x="245" y="330" width="104" height="36" text="LOGIN" measuredWidth="104" measuredHeight="36" background="#900" link="PaginaPrincipal(Logeado).screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="13" x="513" y="330" width="104" height="36" text="REGISTRO" measuredWidth="104" measuredHeight="36" background="#900" link="Registro.screen">
+  <widgets xsi:type="model:Button" id="13" x="513" y="330" width="104" height="36" text="REGISTRO" measuredWidth="104" measuredHeight="36" background="#900" link="Registro1.screen">
     <font/>
   </widgets>
   <hRuler/>

@@ -11,7 +11,7 @@
   <widgets xsi:type="model:Label" id="4" x="48" y="96" width="512" text="Navegacion de Temas" measuredWidth="512" measuredHeight="40" textAlignment="Center" foreground="#900">
     <font size="24px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="5" x="112" y="176" width="248" text="- Como Registrar  a un equipo" measuredWidth="248" measuredHeight="32" link="Registro.screen">
+  <widgets xsi:type="model:Label" id="5" x="112" y="176" width="248" text="- Como Registrar  a un equipo" measuredWidth="248" measuredHeight="32" link="Registro1.screen">
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="6" x="112" y="200" width="224" text="- Sistema de puntuacion" measuredWidth="224" measuredHeight="32" link="Eventos(VistaGeneral).screen">

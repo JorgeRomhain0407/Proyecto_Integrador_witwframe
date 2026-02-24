@@ -7,7 +7,7 @@
     <screen href="Login.screen#/"/>
   </panels>
   <panels id="RvxHm27BiiJG8WieAQujpKuIrBM=" x="675" y="75">
-    <screen href="Registro.screen#/"/>
+    <screen href="Registro1.screen#/"/>
   </panels>
   <panels id="wS8elp9boHg05NQXHPtCokawMR0=" x="975" y="75">
     <screen href="PaginaPrincipal(Logeado).screen#/"/>
