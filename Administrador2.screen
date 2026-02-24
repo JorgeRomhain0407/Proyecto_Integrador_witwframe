@@ -85,10 +85,10 @@
   <widgets xsi:type="model:Label" id="95" x="179" y="494" measuredWidth="6" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="96" x="351" y="476" width="135" height="31" text="Consultar" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="96" x="351" y="476" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="97" x="778" y="476" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="97" x="778" y="476" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="98" x="66" y="48" width="969" height="37" text="&amp;Mi Perfil,&amp;Inicio,&amp;Eventos,&amp;Ayuda" measuredWidth="969" measuredHeight="37" selection="0" background="#900">
@@ -98,7 +98,7 @@
     <items link="Eventos(VistaGeneral).screen" x="473" y="0" width="262" height="37" text="&amp;Eventos"/>
     <items link="Ayudas.screen" x="735" y="0" width="234" height="37" text="&amp;Ayuda"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="99" x="565" y="476" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="99" x="565" y="476" width="135" height="31" text="Consultar" measuredWidth="135" measuredHeight="31" background="#900">
     <font/>
   </widgets>
   <hRuler/>
