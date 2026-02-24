@@ -5,14 +5,14 @@
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:List" id="3" x="137" y="106" width="113" height="184" text="Torneos&#xA;&#xA;Partidos&#xA;&#xA;Equipos&#xA;&#xA;Logros" measuredWidth="113" measuredHeight="184" background="#900" alternative="#900">
-    <font/>
-    <items x="0" y="2" width="113" height="21" text="Torneos"/>
-    <items x="0" y="23" width="113" height="21"/>
-    <items x="0" y="44" width="113" height="21" text="Partidos"/>
-    <items x="0" y="65" width="113" height="21"/>
-    <items x="0" y="86" width="113" height="21" text="Equipos"/>
-    <items x="0" y="107" width="113" height="21"/>
-    <items x="0" y="128" width="113" height="21" text="Logros"/>
+    <font size="14px"/>
+    <items link="Administrador1.screen" x="0" y="2" width="113" height="23" text="Torneos"/>
+    <items x="0" y="25" width="113" height="23"/>
+    <items link="Administrador2.screen" x="0" y="48" width="113" height="23" text="Partidos"/>
+    <items x="0" y="71" width="113" height="23"/>
+    <items link="Administrador3.screen" x="0" y="94" width="113" height="23" text="Equipos"/>
+    <items x="0" y="117" width="113" height="23"/>
+    <items link="" x="0" y="140" width="113" height="23" text="Logros"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="4" x="102" y="116" measuredWidth="24" measuredHeight="24" foreground="#c00" icon="wizard (medium)"/>
   <widgets xsi:type="model:Icon" id="5" x="98" y="196" width="31" measuredWidth="31" measuredHeight="32" foreground="#c00" icon="usergroup (large)"/>
@@ -41,7 +41,7 @@
   <widgets xsi:type="model:Label" id="30" x="357" y="314" text="Puntos:" measuredWidth="49" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="36" x="357" y="469" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900">
+  <widgets xsi:type="model:Button" id="36" x="357" y="469" width="135" height="31" text="Volver" measuredWidth="135" measuredHeight="31" background="#900" link="PaginaPrincipal(Admin).screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="37" x="784" y="469" width="135" height="31" text="Guardar" measuredWidth="135" measuredHeight="31" background="#900">
