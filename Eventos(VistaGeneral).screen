@@ -48,8 +48,8 @@
   <widgets xsi:type="model:Label" id="22" x="412" y="424" width="273" text="Padel" measuredWidth="273" measuredHeight="35" textAlignment="Center" foreground="#fff">
     <font size="20px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="23" x="752" y="424" width="273" text="Proximas Disciplinas" measuredWidth="273" measuredHeight="35" textAlignment="Center" foreground="#fff">
-    <font size="20px" bold="true" underline="true"/>
+  <widgets xsi:type="model:Label" id="23" x="752" y="424" width="273" text="Proximas Disciplinas" measuredWidth="273" measuredHeight="38" textAlignment="Center" foreground="#fff">
+    <font size="21px" bold="true" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="25" x="77" y="464" text="Liga de Invierno" measuredWidth="136" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="true"/>
