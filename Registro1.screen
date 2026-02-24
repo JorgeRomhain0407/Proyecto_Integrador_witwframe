@@ -11,8 +11,8 @@
   <widgets xsi:type="model:Label" id="7" x="378" y="106" width="197" text="Cuenta y Seguridad" measuredWidth="197" measuredHeight="36" textAlignment="Center" foreground="#fff">
     <font size="20px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="216" y="136" width="177" text="Datos del equipo" measuredWidth="177" measuredHeight="32" foreground="#fff">
-    <font size="17px" bold="true" italic="false" underline="false"/>
+  <widgets xsi:type="model:Label" id="9" x="216" y="136" width="177" text="Datos del equipo" measuredWidth="177" measuredHeight="33" foreground="#fff">
+    <font size="19px" bold="true" italic="false" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="10" x="216" y="161" width="337" text="Nombre del Equipo(Usuario):" measuredWidth="337" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
@@ -26,8 +26,8 @@
   <widgets xsi:type="model:TextField" id="14" x="217" y="243" width="497" measuredWidth="497" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="15" x="216" y="325" width="177" text="Recuperacion" measuredWidth="177" measuredHeight="32" foreground="#fff">
-    <font size="17px" bold="true"/>
+  <widgets xsi:type="model:Label" id="15" x="216" y="325" width="177" text="Recuperacion" measuredWidth="177" measuredHeight="33" foreground="#fff">
+    <font size="19px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="16" x="216" y="354" width="321" text="Pregunta de Seguridad 1:" measuredWidth="321" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
@@ -59,7 +59,7 @@
   <widgets xsi:type="model:TextField" id="51" x="240" y="49" width="456" text="Registro de Equipos" measuredWidth="456" measuredHeight="32" textAlignment="Center" background="#900">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="52" x="405" y="584" width="136" height="41" text="Siguiente" measuredWidth="136" measuredHeight="41" link="Login.screen">
+  <widgets xsi:type="model:Button" id="52" x="405" y="584" width="136" height="41" text="Siguiente" measuredWidth="136" measuredHeight="41" link="Registro2.screen">
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="53" x="216" y="385" width="497" text="Pregunta de seguridad 1:" measuredWidth="497" measuredHeight="24">
