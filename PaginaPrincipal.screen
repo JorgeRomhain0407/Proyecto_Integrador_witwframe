@@ -29,8 +29,8 @@
     <font size="8px"/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="100" x="-238" y="70" width="32" height="30" measuredWidth="32" measuredHeight="30"/>
-  <widgets xsi:type="model:WidgetGroup" id="104" x="-185" y="216" measuredWidth="160" measuredHeight="213">
-    <widgets xsi:type="model:Image" id="103" width="160" height="213" measuredWidth="160" measuredHeight="213" src="imágenes/Caracteristicas-del-Futbol.jpg"/>
+  <widgets xsi:type="model:WidgetGroup" id="104" x="-200" y="216" width="174" measuredWidth="174" measuredHeight="213">
+    <widgets xsi:type="model:Image" id="103" width="174" height="213" measuredWidth="174" measuredHeight="213" src="imágenes/Caracteristicas-del-Futbol.jpg"/>
   </widgets>
   <widgets xsi:type="model:Image" id="105" x="16" y="216" width="184" height="213" measuredWidth="184" measuredHeight="213" src="imágenes/padel.jpg"/>
   <widgets xsi:type="model:Image" id="106" x="236" y="216" width="176" height="212" measuredWidth="176" measuredHeight="212" src="imágenes/409-4092711_proximamente-png.png"/>
