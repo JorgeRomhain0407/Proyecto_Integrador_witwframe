@@ -3,10 +3,10 @@
   <widgets xsi:type="model:Window" id="1" x="16" y="8" width="1065" height="705" text="UEM Events" measuredWidth="1065" measuredHeight="705"/>
   <widgets xsi:type="model:ButtonBar" id="2" x="16" y="27" width="1065" height="38" text="Eventos,Inicio,Perfil,Ayudas" measuredWidth="1065" measuredHeight="38" selection="0" background="#900">
     <font/>
-    <items x="0" y="0" width="301" height="38" text="Eventos"/>
-    <items link="PaginaPrincipal(Logeado).screen" x="301" y="0" width="237" height="38" text="Inicio"/>
-    <items link="Perfil.screen" x="538" y="0" width="223" height="38" text="Perfil"/>
-    <items link="Ayudas.screen" x="761" y="0" width="304" height="38" text="Ayudas"/>
+    <items x="0" y="0" width="300" height="38" text="Eventos"/>
+    <items link="PaginaPrincipal(Logeado).screen" x="300" y="0" width="241" height="38" text="Inicio"/>
+    <items link="Perfil.screen" x="541" y="0" width="227" height="38" text="Perfil"/>
+    <items link="Ayudas.screen" x="768" y="0" width="297" height="38" text="Ayudas"/>
   </widgets>
   <widgets xsi:type="model:Label" id="6" x="80" y="56" width="273" text="Eventos Destacados" measuredWidth="273" measuredHeight="40" foreground="#900">
     <font size="24px" bold="true"/>
@@ -15,10 +15,10 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="9" x="160" y="112" width="760" height="176" text="Imagen de fondo : (Cancha de futbol/padel)" measuredWidth="760" measuredHeight="176"/>
-  <widgets xsi:type="model:Label" id="10" x="96" y="296" text="Torneo &quot;Supercopa UEM 2026&quot;" measuredWidth="259" measuredHeight="32" foreground="#fff" link="Eventos.screen">
+  <widgets xsi:type="model:Label" id="10" x="96" y="296" text="Torneo &quot;Supercopa UEM 2026&quot;" measuredWidth="264" measuredHeight="32" foreground="#fff" link="Eventos.screen">
     <font size="17px" bold="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="11" x="151" y="327" text="15-20 de Marzo" measuredWidth="127" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="11" x="151" y="327" text="15-20 de Marzo" measuredWidth="131" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="12" x="504" y="327" text="Pista Central" measuredWidth="101" measuredHeight="32" foreground="#fff">
@@ -42,42 +42,42 @@
   <widgets xsi:type="model:Shape" id="20" x="736" y="410" width="305" height="277" measuredWidth="305" measuredHeight="277" background="#900" lineStyle="dashed" shapeType="rectangle">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="21" x="71" y="424" width="273" text="Futbol Sala" measuredWidth="273" measuredHeight="35" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="21" x="71" y="424" width="273" text="Futbol Sala" measuredWidth="273" measuredHeight="36" textAlignment="Center" foreground="#fff">
     <font size="20px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="412" y="424" width="273" text="Padel" measuredWidth="273" measuredHeight="35" textAlignment="Center" foreground="#fff">
+  <widgets xsi:type="model:Label" id="22" x="412" y="424" width="273" text="Padel" measuredWidth="273" measuredHeight="36" textAlignment="Center" foreground="#fff">
     <font size="20px" bold="true" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="23" x="752" y="424" width="273" text="Proximas Disciplinas" measuredWidth="273" measuredHeight="38" textAlignment="Center" foreground="#fff">
     <font size="21px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="77" y="464" text="Liga de Invierno" measuredWidth="136" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="25" x="77" y="464" text="Liga de Invierno" measuredWidth="139" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="77" y="488" text="Futsal - 1º DAM" measuredWidth="126" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="27" x="77" y="488" text="Futsal - 1º DAM" measuredWidth="127" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="28" x="104" y="533" text="Inscripciones : ON" measuredWidth="144" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="28" x="104" y="533" text="Inscripciones : ON" measuredWidth="145" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="104" y="567" text="4/12 Equipos" measuredWidth="105" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="29" x="104" y="567" text="4/12 Equipos" measuredWidth="108" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="30" x="71" y="536" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#0f0" icon="bullet (custom)"/>
   <widgets xsi:type="model:Icon" id="31" x="71" y="567" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="usergroup (custom)"/>
-  <widgets xsi:type="model:Label" id="32" x="154" y="640" text="Ver Detalles" measuredWidth="96" measuredHeight="32" textAlignment="Center" foreground="#fff" link="Eventos.screen">
+  <widgets xsi:type="model:Label" id="32" x="154" y="640" text="Ver Detalles" measuredWidth="98" measuredHeight="32" textAlignment="Center" foreground="#fff" link="Eventos.screen">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="33" x="505" y="640" text="Ver Detalles" measuredWidth="96" measuredHeight="32" textAlignment="Center" foreground="#fff" link="Eventos.screen">
+  <widgets xsi:type="model:Label" id="33" x="505" y="640" text="Ver Detalles" measuredWidth="98" measuredHeight="32" textAlignment="Center" foreground="#fff" link="Eventos.screen">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="35" x="424" y="464" text="Rey de la Pista" measuredWidth="122" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="35" x="424" y="464" text="Rey de la Pista" measuredWidth="126" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="423" y="488" text="Padel - Parejas" measuredWidth="117" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="36" x="423" y="488" text="Padel - Parejas" measuredWidth="118" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="37" x="448" y="533" text="Inscripciones : OFF" measuredWidth="149" measuredHeight="32" foreground="#fff">
+  <widgets xsi:type="model:Label" id="37" x="448" y="533" text="Inscripciones : OFF" measuredWidth="150" measuredHeight="32" foreground="#fff">
     <font size="17px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="38" x="448" y="567" text="Ganadores : Los Ubuntus" measuredWidth="197" measuredHeight="32" foreground="#fff">
@@ -88,6 +88,18 @@
   <widgets xsi:type="model:Image" id="41" x="776" y="480" width="232" height="184" text="Work in progress" measuredWidth="232" measuredHeight="184"/>
   <widgets xsi:type="model:Image" id="44" x="160" y="112" width="760" height="176" measuredWidth="760" measuredHeight="176" src="assets/Gemini_Generated_Image_8qzvd08qzvd08qzv.png"/>
   <widgets xsi:type="model:Image" id="45" x="776" y="479" width="232" height="184" measuredWidth="232" measuredHeight="184" src="assets/409-4092711_proximamente-png.png"/>
+  <widgets xsi:type="model:Label" id="46" x="100" y="598" text="+500 Puntos de XP" measuredWidth="153" measuredHeight="32" foreground="#fff">
+    <font size="17px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="47" x="69" y="601" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="favorites (custom)"/>
+  <widgets xsi:type="model:Label" id="48" x="-592" y="869" text="+500 Puntos de XP" measuredWidth="153" measuredHeight="32" foreground="#fff">
+    <font size="17px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="49" x="-623" y="872" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="favorites (custom)"/>
+  <widgets xsi:type="model:Label" id="50" x="446" y="598" text="+300 Puntos de XP" measuredWidth="153" measuredHeight="32" foreground="#fff">
+    <font size="17px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="51" x="415" y="601" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#fff" icon="favorites (custom)"/>
   <hRuler/>
   <vRuler>
     <guides position="26"/>

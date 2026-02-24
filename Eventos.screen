@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="264" y="96" width="1017" height="665" text="UEM Events" measuredWidth="1017" measuredHeight="665" background="#eee" minimizeButton="true"/>
-  <widgets xsi:type="model:Label" id="7" x="328" y="144" width="472" text="Información del evento" measuredWidth="472" measuredHeight="65" textAlignment="Center">
-    <font size="43px" bold="true"/>
+  <widgets xsi:type="model:Label" id="7" x="328" y="144" width="472" text="Información del evento" measuredWidth="472" measuredHeight="46" textAlignment="Center">
+    <font size="28px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="51" x="856" y="142" width="424" height="618" measuredWidth="424" measuredHeight="618" background="#900"/>
-  <widgets xsi:type="model:Label" id="9" x="933" y="154" text="En directo {history}" measuredWidth="267" measuredHeight="65" foreground="#fff">
+  <widgets xsi:type="model:Label" id="9" x="933" y="154" text="En directo {history}" measuredWidth="270" measuredHeight="67" foreground="#fff">
     <font size="43px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="11" x="856" y="144" height="616" measuredWidth="6" measuredHeight="616"/>
-  <widgets xsi:type="model:Label" id="23" x="294" y="212" width="88" text="Fecha:" measuredWidth="88" measuredHeight="45">
-    <font size="28px" bold="true" italic="false" underline="false"/>
+  <widgets xsi:type="model:Label" id="23" x="297" y="264" width="88" text="Fecha:" measuredWidth="88" measuredHeight="40">
+    <font size="24px" bold="true" italic="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="381" y="218" width="272" text=" 12-14 Febrero 2026" measuredWidth="272" measuredHeight="40">
-    <font size="24px"/>
+  <widgets xsi:type="model:Label" id="25" x="366" y="266" width="272" text=" 12-14 Febrero 2026" measuredWidth="272" measuredHeight="36">
+    <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="26" x="294" y="269" text="Ubicación:" measuredWidth="143" measuredHeight="45">
-    <font size="28px" bold="true" italic="false" underline="false"/>
+  <widgets xsi:type="model:Label" id="26" x="294" y="305" text="Ubicación:" measuredWidth="124" measuredHeight="40">
+    <font size="24px" bold="true" italic="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="446" y="275" width="272" text="Polideportivo X" measuredWidth="272" measuredHeight="40">
-    <font size="24px"/>
+  <widgets xsi:type="model:Label" id="27" x="420" y="307" width="272" text="Polideportivo X" measuredWidth="272" measuredHeight="36">
+    <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="28" x="294" y="331" text="Premio:" measuredWidth="108" measuredHeight="45">
-    <font size="28px" bold="true" italic="false" underline="false"/>
+  <widgets xsi:type="model:Label" id="28" x="294" y="350" text="Premio:" measuredWidth="92" measuredHeight="40">
+    <font size="24px" bold="true" italic="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="414" y="337" width="272" text="A definir" measuredWidth="272" measuredHeight="40">
-    <font size="24px"/>
+  <widgets xsi:type="model:Label" id="29" x="391" y="352" width="272" text="A definir" measuredWidth="272" measuredHeight="36">
+    <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:TextField" id="31" x="285" y="400" width="557" text="TIEMPO RESTANTE DE REGISTRO - 2 DÍAS" measuredWidth="557" measuredHeight="46" background="#900" borderColor="#900">
     <font size="28px"/>
@@ -76,6 +76,15 @@
   </widgets>
   <widgets xsi:type="model:Combo" id="60" x="503" y="585" width="48" measuredWidth="48" measuredHeight="33">
     <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="63" x="299" y="210" width="501" height="64" text="Torneo de futbol con fines solidarios para los enanos de la universidad europea" measuredWidth="501" measuredHeight="64">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="500" y="350" text="Diciplina:" measuredWidth="112" measuredHeight="40">
+    <font size="24px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="65" x="609" y="354" width="272" text="FP" measuredWidth="272" measuredHeight="36">
+    <font size="20px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
